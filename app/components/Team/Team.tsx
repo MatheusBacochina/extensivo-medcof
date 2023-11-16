@@ -48,13 +48,14 @@ const Team = () => {
         container.scrollLeft + container.clientWidth >=
         container.scrollWidth
       ) {
+   
         container.scrollLeft = 0;
       }
 
       setScrollPosition(container.scrollLeft);
     }
 
-    requestAnimationFrame(() => handleScroll());
+    requestAnimationFrame(handleScroll);
   };
 
   useEffect(() => {

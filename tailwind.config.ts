@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sora: ['Sora', 'sans-serif'],
+      sora: ["var(--font-sora)"],
+      inter: ["var(--font-inter)"],
     },
     extend: {
       backgroundImage: {

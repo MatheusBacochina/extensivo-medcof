@@ -20,7 +20,7 @@ function Doctor({
   return (
     <div className="basis-[150px] sm:basis-[166px] md:basis-[175px] lg:basis-[183px] xl:basis-[191px] 2xl:basis-[200px]  flex-shrink-0">
       <div className="w-[150px] sm:w-[166px] md:w-[175px] lg:w-[183px] xl:w-[191px] 2xl:w-[200px] h-[150px] sm:h-[166px] md:h-[175px] lg:h-[183px] xl:h-[191px] 2xl:h-[200px]  relative">
-        <Image src={src} fill alt={alt} />
+        <Image sizes="" src={src} fill alt={alt} />
       </div>
 
       <h4 className="text-center text-[14px] sm:text-[14px] text-zinc-700 md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] font-mont leading-relaxed font-semibold">

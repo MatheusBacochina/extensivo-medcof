@@ -1,5 +1,5 @@
 const Logo = () => {
-    return <svg className="-mt-8" width="300" height="160" viewBox="0 0 1080 874" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return <svg className="-mt-8" width="350" height="170" viewBox="0 0 1080 874" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="Logo Black-November centralizada preta">
     <g id="Frame 1">
     <g id="Logo superior esquerda">

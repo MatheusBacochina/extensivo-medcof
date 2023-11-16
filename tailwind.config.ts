@@ -16,6 +16,10 @@ const config: Config = {
       mont: ["var(--font-mont)"],
     },
     extend: {
+      gridTemplateColumns: {
+        'bot': '300px 1fr 300px',
+
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

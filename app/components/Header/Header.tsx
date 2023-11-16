@@ -17,7 +17,7 @@ const Header = () => {
           seja aprovado na residência médica que você quiser!
         </span>
       </h1>
-      <div className="max-w-[700px] animation-h1 bg-black items-baseline isolate group overflow-hidden w-full relative aspect-video mt-4 grid">
+      <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl items-baseline isolate group overflow-hidden w-full relative aspect-video mt-6 grid">
         {!videoLoaded && (
           <div
             role="status"
@@ -59,7 +59,7 @@ const Header = () => {
           Quero começar a estudar hoje!
         </span>
       </button>
-      <div className="max-w-[855px] bg-white bg-opacity-10 rounded-xl shadow border-2 border-white border-opacity-10  px-4 mask w-full pt-10 pb-8 mt-[96px] sm:mt-[106px]">
+      <div className="max-w-[855px] bg-white bg-opacity-10 rounded-xl shadow border-2 border-white border-opacity-10 px-4 mask w-full pt-10 pb-8 mt-[96px]">
         <h1 className="text-center text-[#fcf3ff] text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] font-semibold font-inter">
           Tenha acesso antecipado:
         </h1>

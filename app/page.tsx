@@ -1,4 +1,11 @@
+'use client';
 import HomeScreen from "./screens/Home/HomeScreen";
+import { NextUIProvider } from "@nextui-org/react";
+
 export default function Home() {
-  return <HomeScreen />;
+  return (
+    <NextUIProvider>
+      <HomeScreen />
+    </NextUIProvider>
+  );
 }

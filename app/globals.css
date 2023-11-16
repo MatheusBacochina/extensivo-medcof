@@ -42,6 +42,38 @@
   animation: h1_anim 0.8s ease-in-out forwards 0.6s;
 }
 
+.linear-text {
+  background: linear-gradient(
+    95.07deg,
+    #118bcc -9.16%,
+    #d669f1 60.12%,
+    rgba(255, 76, 100, 0.9) 100.48%
+  );
+}
+.h1-text-color-bold {
+  background: linear-gradient(
+    95.07deg,
+    #118bcc -9.16%,
+    #d669f1 60.12%,
+    rgba(255, 76, 100, 0.9) 100.48%
+  );
+  background-image: linear-gradient(
+    95.07deg,
+    #118bcc -9.16%,
+    #d669f1 60.12%,
+    rgba(255, 76, 100, 0.9) 100.48%
+  );
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .h1-text-color {
   background: linear-gradient(
     95.07deg,
@@ -648,13 +680,6 @@
   }
 }
 
-.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial;
-  text-shadow: 0 0 1px #000;
-}
-
 @-webkit-keyframes snowflakes-fall {
   0% {
     top: -10%;
@@ -697,9 +722,8 @@
   }
 }
 .snowflake {
-  position: fixed;
+  position: absolute;
   top: -10%;
-  z-index: 9999;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -765,16 +789,4 @@
   left: 90%;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
-}
-.demo {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  display: block;
-  margin: 0 auto;
-  padding: 15px 0;
-  text-align: center;
-}
-.demo a {
-  font-family: "Raleway", sans-serif;
-  color: #000;
 }

@@ -21,11 +21,11 @@ const Ia = () => {
       </p>
 
       <div className="bg-slate-500 w-full max-w-[1024px] mt-10 grid justify-center lg:grid-cols-[300px_1fr_300px] grid-cols-[1fr] justify-items-center  grid-rows-[auto_auto_360px_auto_auto] lg:grid-rows-[360px_360px] gap-4 md:grid-cols-[300px_300px] md:grid-rows-[360px_360px_360px]">
-        <div className="card w-full bg-slate-400">a</div>
+        <div className="card w-full bg-slate-400">Estou fazendo ainda</div>
         <div className="card bg-slate-800 max-w-[300px] w-full row-start-3 md:row-start-2 md:col-span-2 lg:col-span-1 lg:row-span-2">b</div>
-        <div className="card  w-full bg-slate-400">c</div>
-        <div className="card w-full bg-slate-400">d</div>
-        <div className="card w-full bg-slate-400">e</div>
+        <div className="card  w-full bg-slate-400">Estou fazendo ainda</div>
+        <div className="card w-full bg-slate-400">Estou fazendo ainda</div>
+        <div className="card w-full bg-slate-400">Estou fazendo ainda</div>
       </div>
       <button className="bg-gradient-to-b cursor-pointer from-fuchsia-400 to-violet-500 hover:bg-gradient-to-l rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
         <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">

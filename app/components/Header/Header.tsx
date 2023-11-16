@@ -29,16 +29,17 @@ const Header = () => {
       <h1 className="text-white animation-h1 max-w-[816px] mt-7 text-center text-3xl font-normal font-inter text-[24px] sm:text-[26px] md:text-[28px] ">
         Comece a estudar <span className="font-semibold">6 meses antes</span>{" "}
         dos seus concorrentes e{" "}
-        <span className="h1-text-color font-semibold">
+        <span className="h1-hero font-semibold">
           seja aprovado na residência médica que você quiser!
         </span>
       </h1>
       <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl isolate group overflow-hidden w-full relative aspect-video mt-6 grid">
         <iframe
+        
           ref={refVideo}
           title="Vimeo Video"
           src={vimeoUrl}
-          allow="fullscreen"
+          allow="fullscreen; accelerometer; autoplay"
           width="100%"
           height="100%"
           allowFullScreen
@@ -49,8 +50,8 @@ const Header = () => {
             onClick={() => {
               setVideoLoaded(true);
               if (refVideo.current) {
-                console.log('here')
-                var url = refVideo.current.src
+                console.log("here");
+                var url = refVideo.current.src;
                 refVideo.current.src = url + "&autoplay=1";
               }
             }}
@@ -61,30 +62,27 @@ const Header = () => {
               src={"/bg_video.png"}
               alt="Coelho medcof"
               priority={true}
+              style={{ objectFit: "cover" }}
             ></Image>
           </div>
         )}
       </div>
-      <button className="bg-gradient-to-b cursor-pointer from-fuchsia-400 to-violet-500 hover:bg-gradient-to-l rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
+      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
         <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>
       <div className="max-w-[855px] relative mt-[96px]">
         <svg
-          className="absolute -z-10 left-1/2 transform -translate-x-1/2 opacity-50 "
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="12"
-          viewBox="0 0 15 9"
-          fill="none"
+          viewBox="0 0 16 11"
+          width="16"
+          height="11"
+          className="absolute -z-10 left-1/2 transform -translate-x-1/2 opacity-80"
         >
-          <path
-            d="M1 1L7.49949 8.02364C7.58598 8.1171 7.73431 8.11528 7.81846 8.01971L14 1"
-            stroke="white"
-            stroke-width="1.07438"
-          />
+          <path d="M8 11l8-9H0z" fill="#ffffff" fill-opacity=".54" />
         </svg>
+
         <div className="w-full bg-white bg-opacity-10 rounded-xl shadow border-2 border-white border-opacity-10 px-4 mask pt-10 pb-8">
           <h1 className="text-center text-[#fcf3ff] text-[20px] lg:text-[21px] xl:text-[22px] 2xl:text-[23px] font-semibold font-inter">
             Tenha acesso antecipado:

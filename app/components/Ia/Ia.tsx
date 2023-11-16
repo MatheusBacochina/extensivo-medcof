@@ -13,7 +13,7 @@ const Ia = () => {
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         A Única Plataforma Com Inteligência Artificial Generativa.
       </h3>
-      <div className="w-[100px] h-[2px] opacity-80 linear-text mx-auto mt-5"></div>
+      <div className="w-[100px] h-[2px] opacity-80 bg-[#f50c1890] mx-auto mt-5"></div>
       <p className="text-center text-[#d7d7d7] max-w-md mx-auto mt-5 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  font-mont leading-relaxed">
         Feita sob medida para concursos de
         <span className="font-semibold"> residência médica</span> e atualizada
@@ -27,7 +27,7 @@ const Ia = () => {
         <div className="card w-full bg-slate-400">Estou fazendo ainda</div>
         <div className="card w-full bg-slate-400">Estou fazendo ainda</div>
       </div>
-      <button className="bg-gradient-to-b cursor-pointer from-fuchsia-400 to-violet-500 hover:bg-gradient-to-l rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
+      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
         <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>

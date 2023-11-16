@@ -37,32 +37,27 @@
   background-blend-mode: normal, normal, normal, normal, normal, normal;
   filter: blur(100px);
 }
-
+.button {
+  background: linear-gradient(0deg, #003cba -5.03%, #1da2dc 104.32%);
+}
+.shadow-student {
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1342fe58,
+    0 0 0.8rem #1379fe63, 0 0 2.8rem #1356fe4d, inset 0 0 1.3rem #13a4fe49;
+}
+.h1-hero {
+  color: #ffffff;
+  text-shadow: 0 0 7px #ffffff5a, 0 0 10px #1da3dc29, 0 0 21px #1da3dc29,
+    0 0 42px #1da3dc29, 0 0 50px #1da3dc29;
+}
 .video-transition {
   animation: h1_anim 0.8s ease-in-out forwards 0.6s;
 }
 
 .linear-text {
-  background: linear-gradient(
-    95.07deg,
-    #118bcc -9.16%,
-    #d669f1 60.12%,
-    rgba(255, 76, 100, 0.9) 100.48%
-  );
+background: linear-gradient(0deg, #0085CF -5.03%, #1DA2DC 104.32%);
 }
 .h1-text-color-bold {
-  background: linear-gradient(
-    95.07deg,
-    #118bcc -9.16%,
-    #d669f1 60.12%,
-    rgba(255, 76, 100, 0.9) 100.48%
-  );
-  background-image: linear-gradient(
-    95.07deg,
-    #118bcc -9.16%,
-    #d669f1 60.12%,
-    rgba(255, 76, 100, 0.9) 100.48%
-  );
+background: linear-gradient(0deg, #0085CF -5.03%, #1DA2DC 104.32%);
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
@@ -75,18 +70,8 @@
   background-clip: text;
 }
 .h1-text-color {
-  background: linear-gradient(
-    95.07deg,
-    #1cafff -9.16%,
-    #e1a3f0 60.12%,
-    rgba(255, 122, 139, 0.9) 100.48%
-  );
-  background-image: linear-gradient(
-    95.07deg,
-    rgb(28, 175, 255) -9.16%,
-    rgb(225, 163, 240) 60.12%,
-    rgba(255, 122, 139, 0.9) 100.48%
-  );
+  background: linear-gradient(180deg, #1da2dc 0%, #00a3ea 100%);
+  background-image: linear-gradient(180deg, #1da2dc 0%, #00a3ea 100%);
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;

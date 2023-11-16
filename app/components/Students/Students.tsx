@@ -15,9 +15,9 @@ function Student({
   desc: string;
 }) {
   return (
-    <div className="basis-[150px] sm:basis-[166px] md:basis-[175px] lg:basis-[183px] xl:basis-[191px] 2xl:basis-[200px]  flex-shrink-0">
-      <div className="w-[150px] sm:w-[166px] border rounded-sm border-[#ffffff60] md:w-[175px] lg:w-[183px] xl:w-[191px] 2xl:w-[200px] h-[150px] sm:h-[166px] md:h-[175px] lg:h-[183px] xl:h-[191px] 2xl:h-[200px]  relative">
-        <Image sizes="" src={src} fill alt={alt} />
+    <div className="basis-[150px] overflow-visible sm:basis-[166px] md:basis-[175px] lg:basis-[183px] xl:basis-[191px] 2xl:basis-[200px]  flex-shrink-0">
+      <div className="w-[150px] overflow-visible shadow-student sm:w-[166px] border rounded-sm border-[#ffffff60] md:w-[175px] lg:w-[183px] xl:w-[191px] 2xl:w-[200px] h-[150px] sm:h-[166px] md:h-[175px] lg:h-[183px] xl:h-[191px] 2xl:h-[200px]  relative">
+        <Image sizes="100vw" src={src} fill alt={alt} />
       </div>
       <h1 className="text-center text-[14px] sm:text-[14px] mt-3 text-[#ffffff] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px] font-mont leading-none font-bold">
         1° Lugar🏅
@@ -43,7 +43,7 @@ const Students = () => {
 
     if (container) {
       // Diminui 0.2 do scroll horizontal
-      container.scrollLeft -= 0.1;
+      container.scrollLeft -= 0.22;
 
       // Se chegou ao início, volta ao final
       if (container.scrollLeft <= 0) {
@@ -82,7 +82,7 @@ const Students = () => {
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-sm leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Os Primeiros Lugares Fazem MedCof
       </h3>
-      <div className="w-[100px] h-[2px] opacity-80 linear-text mx-auto mt-5"></div>
+      <div className="w-[100px] h-[2px] opacity-80 bg-[#f50c1890] mx-auto mt-5"></div>
       <p className="text-center text-[#d7d7d7] max-w-lg mx-auto mt-5 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  font-mont leading-relaxed">
         O único curso{" "}
         <span className="font-semibold"> verificado com 100% de aprovação</span>{" "}
@@ -93,7 +93,7 @@ const Students = () => {
         ref={containerRef}
         orientation="horizontal"
         size={20}
-        className="mx-auto mt-10 overflow-x-scroll w-full gap-3 pointer-events-none max-w-4xl flex"
+        className="mx-auto overflow-x-scroll w-full gap-6 py-10 pointer-events-none max-w-4xl flex"
       >
         {alunos.map((student) => (
           <Student
@@ -105,8 +105,8 @@ const Students = () => {
           />
         ))}
       </ScrollShadow>
-      <p className="text-center font-sora text-[#d7d7d74e] mt-6">São <span className="font-semibold text-[#d7d7d767]">+10 mil aprovações</span> e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.</p>
-      <button className="bg-gradient-to-b cursor-pointer from-fuchsia-400 to-violet-500 hover:bg-gradient-to-l rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
+      <p className="text-center font-sora text-[#d7d7d74e]">São <span className="font-semibold text-[#d7d7d767]">+10 mil aprovações</span> e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.</p>
+      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
         <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>

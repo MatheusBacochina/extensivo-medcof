@@ -75,7 +75,7 @@ const Team = () => {
         orientation="horizontal"
         size={30}
         className="mx-auto mt-10 overflow-x-scroll gap-3 pointer-events-none max-w-4xl flex"
-      >
+      >asdasdasasdasdas
         {[...team, ...team].map((doctor) => (
           <Doctor
             key={doctor.name}

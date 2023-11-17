@@ -35,38 +35,29 @@ function Doctor({
 
 const Team = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [scrollPosition, setScrollPosition] = useState<number>(0);
-  const handleScroll: any = () => {
-    const container = containerRef.current;
-
-    if (container) {
-      // Adiciona 0.2 ao scroll horizontal
-      container.scrollLeft += 0.22;
-
-      // Se chegou ao final, volta ao início
-      if (
-        container.scrollLeft + container.clientWidth >=
-        container.scrollWidth
-      ) {
-   
-        container.scrollLeft = 0;
-      }
-
-      setScrollPosition(container.scrollLeft);
-    }
-
-    requestAnimationFrame(handleScroll);
-  };
 
   useEffect(() => {
-    handleScroll();
+    const handleScroll: any = () => {
+      if (containerRef.current) {
+        if (
+          containerRef.current.scrollLeft <
+          (containerRef.current.scrollWidth/2)
+        ) {
+          containerRef.current.scrollLeft += 0.30;
+          requestAnimationFrame(handleScroll);
+          return;
+        }
+        containerRef.current.scrollLeft = 0;
+        requestAnimationFrame(handleScroll);
+      }
+    };
+
+    requestAnimationFrame(handleScroll);
 
     return () => {
       cancelAnimationFrame(handleScroll);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
   return (
     <div className="bg-white pt-10 pb-10 px-4">
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-lg leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
@@ -79,13 +70,13 @@ const Team = () => {
         são produzidas por especialistas específicos de cada área.
       </p>
       <ScrollShadow
-      hideScrollBar
+        hideScrollBar
         ref={containerRef}
         orientation="horizontal"
         size={30}
         className="mx-auto mt-10 overflow-x-scroll gap-3 pointer-events-none max-w-4xl flex"
       >
-        {team.map((doctor) => (
+        {[...team, ...team].map((doctor) => (
           <Doctor
             key={doctor.name}
             src={doctor.src}

@@ -34,48 +34,32 @@ function Student({
 
 const Students = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [scrollPosition, setScrollPosition] = useState<number>(0);
-  const [totalScrollWidth, setTotalScrollWidth] = useState<number>(0);
-
-  // Tipando a função handleScroll
-  const handleScroll: any = () => {
-    const container = containerRef.current;
-
-    if (container) {
-      // Diminui 0.2 do scroll horizontal
-      container.scrollLeft -= 0.22;
-
-      // Se chegou ao início, volta ao final
-      if (container.scrollLeft <= 0) {
-        container.scrollLeft = totalScrollWidth;
-      }
-
-      setScrollPosition(container.scrollLeft);
-    }
-
-    requestAnimationFrame(handleScroll);
-  };
 
   useEffect(() => {
-    const container = containerRef.current;
-
-    if (container) {
-      // Calcula o totalScrollWidth com base no conteúdo real
-      setTotalScrollWidth(container.scrollWidth);
-    }
-
-    // Inicia com o scroll total disponível
     if (containerRef.current) {
-      containerRef.current.scrollLeft = totalScrollWidth;
+      containerRef.current.scrollLeft = containerRef.current.scrollWidth;
     }
-
-    handleScroll();
-
+  
+    function handleScroll() {
+      if (containerRef.current) {
+        if (containerRef.current.scrollLeft >= (containerRef.current.scrollWidth / 2 - containerRef.current.offsetWidth)) {
+          containerRef.current.scrollLeft -= 0.74;
+        } else {
+          containerRef.current.scrollLeft = containerRef.current.scrollWidth;
+        }
+  
+        requestAnimationFrame(handleScroll);
+      }
+    }
+  
+    // Start the animation frame loop
+    const animationFrameId = requestAnimationFrame(handleScroll);
+  
+    // Cleanup function to cancel the animation frame when the component unmounts
     return () => {
-      // Limpar o requestAnimationFrame ao desmontar o componente
-      cancelAnimationFrame(handleScroll);
+      cancelAnimationFrame(animationFrameId);
     };
-  }, [totalScrollWidth]);
+  }, []); 
 
   return (
     <div className="bg-black flex flex-col items-center pt-8 pb-20 px-4">
@@ -93,9 +77,9 @@ const Students = () => {
         ref={containerRef}
         orientation="horizontal"
         size={20}
-        className="mx-auto overflow-x-scroll w-full gap-6 py-10 pointer-events-none max-w-4xl flex"
+        className="mx-auto relative overflow-x-scroll w-full gap-6 py-10 pointer-events-none max-w-4xl flex"
       >
-        {alunos.map((student) => (
+        {[...alunos, ...alunos].map((student) => (
           <Student
             key={student.name}
             src={student.src}
@@ -105,7 +89,13 @@ const Students = () => {
           />
         ))}
       </ScrollShadow>
-      <p className="text-center font-sora text-[#d7d7d74e]">São <span className="font-semibold text-[#d7d7d767]">+10 mil aprovações</span> e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.</p>
+      <p className="text-center font-sora text-[#d7d7d74e]">
+        São{" "}
+        <span className="font-semibold text-[#d7d7d767]">
+          +10 mil aprovações
+        </span>{" "}
+        e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.
+      </p>
       <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
         <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
           Quero começar a estudar hoje!

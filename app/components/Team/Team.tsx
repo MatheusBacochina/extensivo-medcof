@@ -35,27 +35,31 @@ function Doctor({
 
 const Team = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const container = containerRef.current;
-
-    if (container) {
-      const handleScroll = () => {
-        if (container.scrollLeft < container.scrollWidth / 2) {
-          container.scrollLeft += 0.3;
-        } else {
-          container.scrollLeft = 0;
-        }
-      };
-
-      // Use setInterval for continuous scrolling
-      const scrollInterval = setInterval(() => {
-        handleScroll();
-      }, 16); // Adjust the interval as needed for your desired scroll speed
-
-      return () => {
-        clearInterval(scrollInterval);
-      };
+    if (containerRef.current) {
+      containerRef.current.scrollLeft = containerRef.current.scrollWidth;
     }
+  
+    function handleScroll() {
+      if (containerRef.current) {
+        if (containerRef.current.scrollLeft >= (containerRef.current.scrollWidth / 2 - containerRef.current.offsetWidth)) {
+          containerRef.current.scrollLeft -= 0.74;
+        } else {
+          containerRef.current.scrollLeft = containerRef.current.scrollWidth;
+        }
+      }
+    }
+  
+    // Start the interval loop
+    const scrollInterval = setInterval(() => {
+      handleScroll();
+    }, 22); // Adjust the interval as needed for your desired scroll speed
+  
+    // Cleanup function to clear the interval when the component unmounts
+    return () => {
+      clearInterval(scrollInterval);
+    };
   }, []);
   return (
     <div className="bg-white pt-10 pb-10 px-4">
@@ -73,12 +77,12 @@ const Team = () => {
         ref={containerRef}
         orientation="horizontal"
         size={30}
-        className="mx-auto mt-10 overflow-x-scroll gap-3 pointer-events-none max-w-4xl flex"
+        className="mx-auto mt-10 overflow-x-scroll gap-3 max-w-4xl flex"
       >
     
-        {[...team, ...team].map((doctor) => (
+        {[...team, ...team].map((doctor, index) => (
           <Doctor
-            key={doctor.name}
+            key={index}
             src={doctor.src}
             alt={doctor.alt}
             name={doctor.name}

@@ -79,9 +79,9 @@ const Students = () => {
         size={20}
         className="mx-auto relative overflow-x-scroll w-full gap-6 py-10 pointer-events-none max-w-4xl flex"
       >
-        {[...alunos, ...alunos].map((student) => (
+        {[...alunos, ...alunos].map((student, index) => (
           <Student
-            key={student.name}
+            key={index}
             src={student.src}
             alt={student.alt}
             name={student.name}

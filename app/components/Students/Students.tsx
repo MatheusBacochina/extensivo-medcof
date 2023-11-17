@@ -47,19 +47,19 @@ const Students = () => {
         } else {
           containerRef.current.scrollLeft = containerRef.current.scrollWidth;
         }
-  
-        requestAnimationFrame(handleScroll);
       }
     }
   
-    // Start the animation frame loop
-    const animationFrameId = requestAnimationFrame(handleScroll);
+    // Start the interval loop
+    const scrollInterval = setInterval(() => {
+      handleScroll();
+    }, 16); // Adjust the interval as needed for your desired scroll speed
   
-    // Cleanup function to cancel the animation frame when the component unmounts
+    // Cleanup function to clear the interval when the component unmounts
     return () => {
-      cancelAnimationFrame(animationFrameId);
+      clearInterval(scrollInterval);
     };
-  }, []); 
+  }, []);
 
   return (
     <div className="bg-black flex flex-col items-center pt-8 pb-20 px-4">

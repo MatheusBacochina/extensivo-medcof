@@ -35,28 +35,27 @@ function Doctor({
 
 const Team = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
-    const handleScroll: any = () => {
-      if (containerRef.current) {
-        if (
-          containerRef.current.scrollLeft <
-          (containerRef.current.scrollWidth/2)
-        ) {
-          containerRef.current.scrollLeft += 0.30;
-          requestAnimationFrame(handleScroll);
-          return;
+    const container = containerRef.current;
+
+    if (container) {
+      const handleScroll = () => {
+        if (container.scrollLeft < container.scrollWidth / 2) {
+          container.scrollLeft += 0.3;
+        } else {
+          container.scrollLeft = 0;
         }
-        containerRef.current.scrollLeft = 0;
-        requestAnimationFrame(handleScroll);
-      }
-    };
+      };
 
-    requestAnimationFrame(handleScroll);
+      // Use setInterval for continuous scrolling
+      const scrollInterval = setInterval(() => {
+        handleScroll();
+      }, 16); // Adjust the interval as needed for your desired scroll speed
 
-    return () => {
-      cancelAnimationFrame(handleScroll);
-    };
+      return () => {
+        clearInterval(scrollInterval);
+      };
+    }
   }, []);
   return (
     <div className="bg-white pt-10 pb-10 px-4">
@@ -75,7 +74,8 @@ const Team = () => {
         orientation="horizontal"
         size={30}
         className="mx-auto mt-10 overflow-x-scroll gap-3 pointer-events-none max-w-4xl flex"
-      >asdasdasasdasdas
+      >
+    
         {[...team, ...team].map((doctor) => (
           <Doctor
             key={doctor.name}

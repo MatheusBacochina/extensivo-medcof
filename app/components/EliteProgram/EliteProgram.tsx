@@ -1,7 +1,7 @@
 import Image from "next/image";
 const EliteProgram = () => {
   return (
-    <div className="flex flex-col bg-black relative isolate items-center pt-10 pb-20 px-4">
+    <div className="flex flex-col bg-black background-header relative isolate items-center pt-10 pb-20 px-4">
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Confira agora tudo o que você vai ter acesso no plano Elite R1:
       </h3>

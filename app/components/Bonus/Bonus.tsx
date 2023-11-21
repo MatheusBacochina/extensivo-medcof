@@ -9,7 +9,7 @@ const Bonus = () => {
       <div className="w-[100px] h-[2px] opacity-80 bg-red-600 mx-auto mt-5"></div>
 
       <div className="mt-10 flex gap-5 justify-center flex-wrap w-full max-w-6xl">
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={50}
@@ -18,11 +18,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
             Raio-X de +30 bancas (revisões focadas por instituições)
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={50}
@@ -31,11 +31,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
             Curso de Radiologia (com imagens)
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={50}
@@ -44,11 +44,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Curso de ECG
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={50}
@@ -57,11 +57,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Curso de Antibioticoterapia
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={50}
@@ -70,11 +70,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Curso de Ventilação Mecânica
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={50}
             height={40}
@@ -83,13 +83,13 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Curso de Dermatologia
 (com imagens)
 
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
             width={30}
             height={20}
@@ -98,11 +98,11 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Curso de Tomboelastograma
           </p>
         </div>
-        <div className="card w-full self-stretch basis-[250px] rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
+        <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
              width={40}
              height={20}
@@ -111,7 +111,7 @@ const Bonus = () => {
             className="opacity-70"
           />
 
-          <p className="mt-4 text-center text-[18px] font-sora font-semibold text-neutral-200">
+          <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
           Fichas resumo em PDF
 de todas as aulas
           </p>
@@ -119,7 +119,7 @@ de todas as aulas
       </div>
 
       <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
+        <span className="text-white text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

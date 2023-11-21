@@ -10,7 +10,10 @@ import EliteProgram from "@/app/components/EliteProgram/EliteProgram";
 import Arena from "@/app/components/Arena/Arena";
 import Bonus from "@/app/components/Bonus/Bonus";
 import FirstPlaces from "@/app/components/FirstPlaces/FirstPlaces";
-export default function HomeScreen() {
+import Cards from "@/app/components/Cards/Cards";
+import { pages } from "@/app/constants/pages";
+  export default function HomeScreen({id}:{id?:string}) {
+    const data = pages[id || "extensivo-2024-rendoscopia"];
   return (
     <>
       <Header />
@@ -25,6 +28,7 @@ export default function HomeScreen() {
       <Arena />
       <Bonus />
       <FirstPlaces  />
+      <Cards elements={data.cards} />
     </>
   );
 }

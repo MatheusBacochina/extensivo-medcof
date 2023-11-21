@@ -26,16 +26,15 @@ const Header = () => {
         }
       />
       <Logo />
-      <h1 className="text-white animation-h1 max-w-[816px] mt-7 text-center text-3xl font-normal font-inter text-[24px] sm:text-[26px] md:text-[28px] ">
-        Comece a estudar <span className="font-semibold">6 meses antes</span>{" "}
-        dos seus concorrentes e{" "}
-        <span className="h1-hero font-semibold">
+      <h1 className="text-[#fffffff3] animation-h1 max-w-[816px] mt-7 leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px] ">
+        Comece a estudar 6 meses antes dos seus concorrentes e{" "}
+        <br className="hidden md:block" />
+        <span className="h1-hero font-medium">
           seja aprovado na residência médica que você quiser!
         </span>
       </h1>
       <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl isolate group overflow-hidden w-full relative aspect-video mt-6 grid">
         <iframe
-        
           ref={refVideo}
           title="Vimeo Video"
           src={vimeoUrl}
@@ -72,15 +71,15 @@ const Header = () => {
           Quero começar a estudar hoje!
         </span>
       </button>
-      <div className="max-w-[855px] relative mt-[96px]">
+      <div className="max-w-[855px] flex justify-center relative mt-[96px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 16 11"
-          width="16"
-          height="11"
-          className="absolute -z-10 left-1/2 transform -translate-x-1/2 opacity-80"
+          viewBox="0 0 20 11"
+          width="24"
+          height="15"
+          className="absolute opacity-40 translate-x-[3px]"
         >
-          <path d="M8 11l8-9H0z" fill="#ffffff" fill-opacity=".54" />
+          <path d="M8 11l8-9H0z" fill="#ffffff" fillOpacity=".54" />
         </svg>
 
         <div className="w-full bg-white bg-opacity-10 rounded-xl shadow border-2 border-white border-opacity-10 px-4 mask pt-10 pb-8">

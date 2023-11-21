@@ -136,3 +136,13 @@ export const alunos = [
     alt: "Lara Luz de Miranda",
   },
 ];
+
+
+export const arena=[
+
+  '/arena2.webp',
+  '/arena3.webp',
+  '/arena4.webp',
+  '/arena6.webp',
+  '/arena7.webp',
+]

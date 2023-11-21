@@ -66,7 +66,7 @@ const Students = () => {
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-sm leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Os Primeiros Lugares Fazem MedCof
       </h3>
-      <div className="w-[100px] h-[2px] opacity-80 bg-[#f50c1890] mx-auto mt-5"></div>
+      <div className="w-[100px] h-[2px] opacity-80 bg-red-600 mx-auto mt-5"></div>
       <p className="text-center text-[#d7d7d7] max-w-lg mx-auto mt-5 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  font-mont leading-relaxed">
         O único curso{" "}
         <span className="font-semibold"> verificado com 100% de aprovação</span>{" "}
@@ -89,9 +89,9 @@ const Students = () => {
           />
         ))}
       </ScrollShadow>
-      <p className="text-center font-sora text-[#d7d7d74e]">
+      <p className="text-center font-sora text-[#d7d7d7a0]">
         São{" "}
-        <span className="font-semibold text-[#d7d7d767]">
+        <span className="font-semibold text-[#d7d7d7ee]">
           +10 mil aprovações
         </span>{" "}
         e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.

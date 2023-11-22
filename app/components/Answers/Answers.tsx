@@ -82,7 +82,7 @@ const opitions = [
       "Já imaginou poder usar uma sala de estudos exclusiva, onde você pode reunir seus amigos do extensivo elite para estudar e ter contato com os coordenadores MedCof? A Arena Elite é nosso espaço de estudos para o aluno elite, com 8 salas de estudos, além de mesas redondas para grupos de estudos pertinho do HC.",
   },
 ];
-const Answers = () => {
+const Answers = ({elements} : any) => {
   return (
     <div className="flex flex-col relative isolate items-center pt-10 pb-20 px-4">
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
@@ -130,7 +130,7 @@ const Answers = () => {
             },
           }}
         >
-          {opitions.map((value, index) => (
+          {elements.map((value: any, index: number) => (
             <AccordionItem
               classNames={{
                 title: "font-medium text-zinc-800 font-mont",

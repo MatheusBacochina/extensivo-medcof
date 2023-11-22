@@ -32,7 +32,7 @@ export default function HomeScreen({ id }: { id?: string }) {
       <Bonus />
       <FirstPlaces />
       <Cards elements={data.cards} />
-      <Answers />
+      <Answers elements={data.accordionAnswersElite} />
     </>
   );
 }

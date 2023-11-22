@@ -1,3 +1,23 @@
+const answersElite =[
+  {
+    label: "EXTENSIVO ANUAL",
+    content: (
+      <>
+        <p className="">
+          O extensivo MedCof é um programa específico e de conteúdo voltado para
+          aprovação nos programas de Residência Médicas mais concorridos do país
+          em 2024.
+        </p>
+
+        <p className="mt-4">
+          Nele contaremos com um programa de aulas extensivo anual, entrega de
+          simulados, tarefas-mínimas por módulo, além de nosso tradicional QBank
+          para que você atinja seu desempenho máximo neste ano de preparação.
+        </p>
+      </>
+    ),
+  },
+]
 const globalElite = [
   {
     label: "EXTENSIVO ANUAL",
@@ -144,11 +164,65 @@ const globalElite = [
       </>
     ),
   },
+  {
+    label: "MULTIMÍDIA DOMINADA",
+    content: (
+      <>
+        <p className="">
+          O treinamento imersivo que transformará você em uma máquina de acertar
+          questões nas residências mais concorridas do país.
+        </p>
+
+        <p className="mt-4">
+          Domine todas as imagens que estarão na primeira fase de suas provas.
+          Esteja preparado para todas as estações multimídia e QUIZ de imagens.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "FICHAS-RESUMO IMPRESSAS NA SUA CASA",
+    content: (
+      <>
+        <p className="">
+          Nós iremos te enviar o Kit Aprovação. Tenha em mãos os resumos de
+          todas as aulas do extensivo 2024 impresso, para que você possa fazer
+          anotações preciosas enquanto estuda.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "ACESSO A COMUNIDADE DE DÚVIDAS",
+    content: (
+      <>
+        <p className="">
+          Tenha acesso a maior comunidade de alunos e plantonistas para tirar
+          suas dúvidas e intensificar ainda mais os seus estudos.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "USO EXCLUSIVO DA ARENA ELITE EM SP",
+    content: (
+      <>
+        <p className="">
+          Já imaginou poder usar uma sala de estudos exclusiva, onde você pode
+          reunir seus amigos do extensivo elite para estudar e ter contato com
+          os coordenadores MedCof? A Arena Elite é nosso espaço de estudos para
+          o aluno elite, com 8 salas de estudos, além de mesas redondas para
+          grupos de estudos pertinho do HC.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export const pages: any = {
   ["extensivo-2024-rendoscopia"]: {
     accordionElite: [...globalElite],
+    accordionAnswersElite: [...answersElite],
     cards: [
       {
         order: "rightCard",

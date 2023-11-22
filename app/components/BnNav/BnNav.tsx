@@ -20,7 +20,7 @@ const BnNav = () => {
 
   return (
     <div className="bg-[#000] sm:sticky top-0 z-50 py-3 flex items-center px-6">
-      <div className="max-w-5xl w-full mx-auto flex-wrap gap-x-20 gap-y-4 flex justify-center min-[878px]:justify-between">
+      <div className="max-w-5xl w-full mx-auto flex-wrap gap-x-20 gap-y-4 flex justify-center min-[932px]:justify-between">
         <h1 className="text-slate-50 leading-none text-center w-fit font-winter font-semibold text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px] flex items-center gap-2">
           Começou a Black November{" "}
           <svg
@@ -47,7 +47,7 @@ const BnNav = () => {
             <h1 className="text-[16px]">segundos</h1>
           </div>
         </div>
-        <button className="bg-[#CC0000] hover:bg-[#ed4c4c] transition-all min-[877px]:ml-[65px] rounded-sm px-8 py-2">
+        <button className="bg-[#CC0000] hover:bg-[#ed4c4c] transition-all min-[927px]:ml-[75px] rounded-sm px-8 py-2">
             <span className="uppercase text-white font-semibold leading-none font-inter text-[14px]">Quero Desconto</span>
         </button>
       </div>

@@ -13,10 +13,12 @@ import FirstPlaces from "@/app/components/FirstPlaces/FirstPlaces";
 import Cards from "@/app/components/Cards/Cards";
 import { pages } from "@/app/constants/pages";
 import Answers from "@/app/components/Answers/Answers";
-  export default function HomeScreen({id}:{id?:string}) {
-    const data = pages[id || "extensivo-2024-rendoscopia"];
+import BnNav from "@/app/components/BnNav/BnNav";
+export default function HomeScreen({ id }: { id?: string }) {
+  const data = pages[id || "extensivo-2024-rendoscopia"];
   return (
     <>
+      <BnNav />
       <Header />
       <Numbers />
       <Team />
@@ -28,7 +30,7 @@ import Answers from "@/app/components/Answers/Answers";
       <EliteProgram />
       <Arena />
       <Bonus />
-      <FirstPlaces  />
+      <FirstPlaces />
       <Cards elements={data.cards} />
       <Answers />
     </>

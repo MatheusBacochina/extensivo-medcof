@@ -115,11 +115,11 @@ const globalElite = [
         </p>
 
         <p className="mt-4">
-          Cada raio-x é direcionado para uma instituição específica: <br /> ENARE,
-          USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO; HCPA;
-          HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO, SURCE;
-          SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP; AMP, UFCSPA,
-          PUCRS, SCMBH, UEPA, UEL e PSU-AL.
+          Cada raio-x é direcionado para uma instituição específica: <br />{" "}
+          ENARE, USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO;
+          HCPA; HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO,
+          SURCE; SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP; AMP,
+          UFCSPA, PUCRS, SCMBH, UEPA, UEL e PSU-AL.
         </p>
       </>
     ),
@@ -129,12 +129,17 @@ const globalElite = [
     content: (
       <>
         <p className="">
-        O Raio-X da banca é a forma mais efetiva de estudar as suas principais instituições no 2º semestre. Com a base do HIIT e o refinamento nas aulas do Raio-x qualquer prova será um passeio!
+          O Raio-X da banca é a forma mais efetiva de estudar as suas principais
+          instituições no 2º semestre. Com a base do HIIT e o refinamento nas
+          aulas do Raio-x qualquer prova será um passeio!
         </p>
 
         <p className="mt-4">
-        Cada raio-x é direcionado para uma instituição específica: <br />
-ENARE, USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO; HCPA; HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO, SURCE; SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP;, AMP, UFCSPA, PUCRS, SCMBH, UEPA, UEL e PSU-AL.
+          Cada raio-x é direcionado para uma instituição específica: <br />
+          ENARE, USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO;
+          HCPA; HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO,
+          SURCE; SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP;, AMP,
+          UFCSPA, PUCRS, SCMBH, UEPA, UEL e PSU-AL.
         </p>
       </>
     ),

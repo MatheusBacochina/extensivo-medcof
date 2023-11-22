@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Bonus = () => {
   return (
-    <div className="flex flex-col bg-black relative isolate items-center pt-10 pb-20 px-4">
+    <div className="flex flex-col bg-bonus relative isolate items-center pt-10 pb-20 px-4">
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Garantindo a sua participação agora você vai receber os seguintes bônus
         gratuitos:
@@ -119,7 +119,7 @@ de todas as aulas
       </div>
 
       <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px]  font-normal font-inter leading-normal">
+        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

@@ -12,6 +12,7 @@ import Bonus from "@/app/components/Bonus/Bonus";
 import FirstPlaces from "@/app/components/FirstPlaces/FirstPlaces";
 import Cards from "@/app/components/Cards/Cards";
 import { pages } from "@/app/constants/pages";
+import Answers from "@/app/components/Answers/Answers";
   export default function HomeScreen({id}:{id?:string}) {
     const data = pages[id || "extensivo-2024-rendoscopia"];
   return (
@@ -23,12 +24,13 @@ import { pages } from "@/app/constants/pages";
       <Ia />
       <ChoiseMedcof />
       <Details />
-      <EliteR />
+      <EliteR elements={data.accordionElite} />
       <EliteProgram />
       <Arena />
       <Bonus />
       <FirstPlaces  />
       <Cards elements={data.cards} />
+      <Answers />
     </>
   );
 }

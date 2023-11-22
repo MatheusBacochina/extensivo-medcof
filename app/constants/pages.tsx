@@ -1,8 +1,152 @@
+const globalElite = [
+  {
+    label: "EXTENSIVO ANUAL",
+    content: (
+      <>
+        <p className="">
+          O extensivo MedCof é um programa específico e de conteúdo voltado para
+          aprovação nos programas de Residência Médicas mais concorridos do país
+          em 2024.
+        </p>
+
+        <p className="mt-4">
+          Nele contaremos com um programa de aulas extensivo anual, entrega de
+          simulados, tarefas-mínimas por módulo, além de nosso tradicional QBank
+          para que você atinja seu desempenho máximo neste ano de preparação.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "INTENSIVO HIIT",
+    content: (
+      <>
+        <p className="">
+          Garanta seu acesso à nossa revisão de 12 semanas – HIIT, 100% baseada
+          em questões e com um método que permite retenção máxima do
+          aprendizado.
+        </p>
+
+        <p className="">
+          Para quem procura um método que se preocupa com todas as dificuldades
+          da reta final.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "MENTORIAS COLETIVAS E DIRECIONAMENTO DE ESTUDO",
+    content: (
+      <>
+        <p className="">
+          Tenha todo o suporte mensal e encorajamento direcionado pelas nossas
+          Mentorias. Gerenciamos seu aprendizado para você maximizar seu
+          potencial, desenvolver suas habilidades e aprimorar sua performance.
+        </p>
+
+        <p className="mt-4">
+          Atinja o melhor nível que estiver ao seu alcance, torne-se um
+          concorrente de ELITE.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "ACESSO ANUAL AO QBANK COM MILHARES QUESTÕES",
+    content: (
+      <>
+        <p className="">
+          Tenha acesso ao nosso lendário QBank com questões transformadoras de
+          provas antigas e autorais.
+        </p>
+
+        <p className="mt-4">
+          Você tem a chance de treinar até a prova com nosso Banco de Questões
+          inteligente que contém milhares de questões com comentários em texto e
+          vídeo.
+        </p>
+        <p className="mt-4">
+          São milhares de questões autorais, criadas por quem vive a rotina e as
+          condutas das maiores instituições do país.
+        </p>
+        <p className="mt-4">
+          Tenha contato com os temas mais quentes retirados diretamente do campo
+          de Batalha.
+        </p>
+        <p className="mt-4">
+          Essas questões, que podem cair idênticas a qualquer momento na sua
+          prova, são comentadas através do nosso método exclusivo.
+        </p>
+      </>
+    ),
+  },
+  {
+    label:
+      "SISTEMA DE FLASHCARDS EXCLUSIVO COM REVISÃO INTERVALADA INTELIGENTE",
+    content: (
+      <>
+        <p className="">
+          Os Flashcards se tornaram nos últimos anos uma poderosa ferramenta de
+          memorização utilizada mundialmente na medicina. Por isso, preparamos
+          uma seleção exclusiva de flashcards mais frequentes nas provas, onde
+          você revisa os principais temas com o mais sofisticado sistema de
+          revisões espaçadas no mercado.
+        </p>
+
+        <p className="mt-4">
+          Baseados no método de estudo ativo – aquele que exige maior autonomia
+          do aluno – trata-se de um método mais efetivo, você retém o dobro de
+          conteúdo.
+        </p>
+        <p className="mt-4">
+          Vital para você que não quer esquecer do conteúdo na hora da prova.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "ACESSO ANTECIPADO AO RAIO-X DA BANCA",
+    content: (
+      <>
+        <p className="">
+          O Raio-X da banca é a forma mais efetiva de estudar as suas principais
+          instituições no 2º semestre. Com a base do HIIT e o refinamento nas
+          aulas do Raio-x qualquer prova será um passeio!
+        </p>
+
+        <p className="mt-4">
+          Cada raio-x é direcionado para uma instituição específica: <br /> ENARE,
+          USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO; HCPA;
+          HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO, SURCE;
+          SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP; AMP, UFCSPA,
+          PUCRS, SCMBH, UEPA, UEL e PSU-AL.
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "PROGRAMA DE SIMULADOS EXCLUSIVOS",
+    content: (
+      <>
+        <p className="">
+        O Raio-X da banca é a forma mais efetiva de estudar as suas principais instituições no 2º semestre. Com a base do HIIT e o refinamento nas aulas do Raio-x qualquer prova será um passeio!
+        </p>
+
+        <p className="mt-4">
+        Cada raio-x é direcionado para uma instituição específica: <br />
+ENARE, USP-SP; EINSTEIN; UNIFESP; ABC; USP-RP, FAMEMA; AMRIGS;; HCGO; HCPA; HCUFPR; IAMSPE; PSU-MG; PSU-GO, SCMSP; SES-DF; SES-PE, SES-GO, SURCE; SUS-BA; SUS-SP; UERJ; UFRJ; UNESP; UNICAMP; UNIFESP;, AMP, UFCSPA, PUCRS, SCMBH, UEPA, UEL e PSU-AL.
+        </p>
+      </>
+    ),
+  },
+];
+
 export const pages: any = {
   ["extensivo-2024-rendoscopia"]: {
+    accordionElite: [...globalElite],
     cards: [
       {
-        order: 'rightCard',
+        order: "rightCard",
         name: <>EXTENSIVO R+ ENDOSCOPIA</>,
         url: "/extensivo-2024-rendoscopia",
         steps: [
@@ -23,12 +167,11 @@ export const pages: any = {
               />
             </svg>
             Acesso antecipado a partir de hoje ao plano extensivo de 2023
-  
           </p>,
         ],
       },
       {
-        order: 'centerCard',
+        order: "centerCard",
         name: <>EXTENSIVO R+ ENDOSCOPIA</>,
         url: "/extensivo-2024-rendoscopia",
         steps: [
@@ -49,12 +192,11 @@ export const pages: any = {
               />
             </svg>
             Acesso antecipado a partir de hoje ao plano extensivo de 2023
-  
           </p>,
         ],
       },
       {
-        order: 'rightCard',
+        order: "rightCard",
         name: <>EXTENSIVO R+ ENDOSCOPIA</>,
         url: "/extensivo-2024-rendoscopia",
         steps: [
@@ -75,7 +217,6 @@ export const pages: any = {
               />
             </svg>
             Acesso antecipado a partir de hoje ao plano extensivo de 2023
-  
           </p>,
         ],
       },

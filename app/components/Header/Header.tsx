@@ -8,7 +8,7 @@ const Header = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const refVideo = useRef<HTMLIFrameElement>(null);
   return (
-    <header className="overflow-hidden pb-20 relative px-4 background-header h-fit flex flex-col items-center isolate">
+    <header className="overflow-hidden pb-20 relative pt-2 px-4 background-header h-fit flex flex-col items-center isolate">
       <Bg
         logo={
           <svg

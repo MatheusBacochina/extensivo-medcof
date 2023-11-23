@@ -23,7 +23,7 @@ const Item = ({
 };
 const Details = () => {
   return (
-    <div className="overflow-hidden pb-14 pt-10 mt-2 relative px-6 background-header h-fit flex flex-col items-center isolate">
+    <div className="overflow-hidden pb-14 pt-10 relative px-6 background-header h-fit flex flex-col items-center isolate">
       <Bg
         logo={
           <svg

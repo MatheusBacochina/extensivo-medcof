@@ -13,7 +13,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`mx-auto border-t ${
+      className={`mx-auto  border-t ${
         !last ? "" : "border-b"
       } border-zinc-500 border-opacity-40 py-10`}
     >
@@ -46,7 +46,7 @@ const Card = ({
 
 const ChoiseMedcof = () => {
   return (
-    <div className="pt-10">
+    <div className="pt-10 bg-white">
       <h3 className="text-center px-4 h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Quem compara, <br />escolhe <span className="h1-text-color">MedCof</span>
       </h3>

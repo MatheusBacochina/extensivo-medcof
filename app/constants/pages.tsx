@@ -1,23 +1,62 @@
-const answersElite =[
+const answersElite = [
   {
-    label: "EXTENSIVO ANUAL",
+    label: "O que é o programa ELITE MedCof?",
     content: (
       <>
         <p className="">
-          O extensivo MedCof é um programa específico e de conteúdo voltado para
-          aprovação nos programas de Residência Médicas mais concorridos do país
-          em 2024.
+          O Elite MedCof é o programa do Grupo MedCof voltado para aprovação em
+          R1 para o ano de 2024 que engloba todos os cursos que você precisa
+          para passar na residência médica dos seus sonhos.
         </p>
 
         <p className="mt-4">
           Nele contaremos com um programa de aulas extensivo anual, entrega de
-          simulados, tarefas-mínimas por módulo, além de nosso tradicional QBank
-          para que você atinja seu desempenho máximo neste ano de preparação.
+          simulados, além de nosso tradicional QBank, programa HIIT, e o curso
+          Multimídia Dominada.
+        </p>
+        <p className="mt-4">
+          É um programa completo para que você atinja seu desempenho máximo
+          neste ano de preparação. Tudo em um só lugar, com todos os recursos
+          que você precisa para uma preparação segura ao longo de 2024.{" "}
         </p>
       </>
     ),
   },
-]
+  {
+    label: "Os temas abordam quais exames?",
+    content: (
+      <>
+        <p className="">
+          Revisamos as provas do SUS-SP, USP-SP, UNICAMP, SUS-BA, SURCE, AMRIGS,
+          IAMSPE, SMS-SP, HSL, UFRJ, UERJ, ISCMSP, FAMERP, SES-DF, USP-RP,
+          UNIFESP, AMRGS, PSU-MG, SURCE, SES-PE, AMP, HCPA, SES-RJ, UNB, HIAE,
+          ENARE, e diversas outras!
+        </p>
+      </>
+    ),
+  },
+  {
+    label: "O que acompanha o MedCof ELITE R1?",
+    content: (
+      <>
+        <p className="">
+          <ul>
+            <li>– Extensivo anual</li>
+            <li>– Intensivo HIIT</li>
+            <li>– Multimídia Dominada</li>
+            <li>– Mentorias Coletivas</li>
+            <li>– QBank</li>
+            <li>– Sistema de Flashcards</li>
+            <li>– Acesso antecipado às lives de véspera</li>
+            <li>– Programa de simulados exclusivos</li>
+            <li>– Acesso a Arena Elite, em São Paulo</li>
+            <li>– Fichas-Resumo impressas</li>
+          </ul>
+        </p>
+      </>
+    ),
+  },
+];
 const globalElite = [
   {
     label: "EXTENSIVO ANUAL",

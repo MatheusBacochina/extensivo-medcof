@@ -27,14 +27,14 @@ const slides = [
   },
   {
     name: "🏅Vitor Iglesias Mangolini ",
-    place: "1°lugar Clínica Médica USP",
+    place: "1° lugar Clínica Médica USP",
     description:
       "Olhando para trás, só tenho a agradecer e reconhecer o Medcof pelo auxílio nesse caminho. Com certeza vale a pena estar acompanhado de um bom cursinho nesse ano de preparação e considero que este foi o melhor que conheci até hoje. Na minha opinião, os principais diferenciais foram o Qbank e as aulas de cirurgia. Vi muitos cursinhos que só empurravam bancos enormes e com comentários repetidos. O diferencial do Qbank foi que a escolha das questões era muito boa e os comentários muito bem feitos. Sem dúvida esse foi o ponto alto e foi central para a preparação. Da minha parte, recomendo para todos que me perguntarem. Obrigado Medcof!",
     url: "/vitor.webp",
   },
   {
     name: "🏅Willian Da Cunha Gripp",
-    place: "1°lugar Medicina Legal e Perícia Médica USP",
+    place: "1° lugar Medicina Legal e Perícia Médica USP",
     description:
       "Olhando para trás, só tenho a agradecer e reconhecer o Medcof pelo auxílio nesse caminho. Com certeza vale a pena estar acompanhado de um bom cursinho nesse ano de preparação e considero que este foi o melhor que conheci até hoje. Na minha opinião, os principais diferenciais foram o Qbank e as aulas de cirurgia. Vi muitos cursinhos que só empurravam bancos enormes e com comentários repetidos. O diferencial do Qbank foi que a escolha das questões era muito boa e os comentários muito bem feitos. Sem dúvida esse foi o ponto alto e foi central para a preparação. Da minha parte, recomendo para todos que me perguntarem. Obrigado Medcof!",
     url: "/willian.webp",

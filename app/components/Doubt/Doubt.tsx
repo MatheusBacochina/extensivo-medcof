@@ -8,7 +8,7 @@ const Doubt = () => {
         </h1>
         <p className="mt-3 text-center">Fale com nossa equipe de suporte agora.</p>
         <Link href="https://api.whatsapp.com/send/?phone=5511942197690&text=Gostaria+de+falar+com+o+suporte&type=phone_number&app_absent=0">
-        <button className=" bg-emerald-400 hover:scale-105 transition-transform rounded-[25px] mt-7 py-4 px-8">
+        <button className=" bg-emerald-400 shadow hover:scale-105 transition-transform rounded-lg mt-7 py-4 px-8">
             <span className="text-center text-white text-base font-normal">Quero tirar uma dúvida!</span>
         </button>
         </Link>

@@ -14,7 +14,7 @@ function Photo({
 
 }) {
   return (
-    <div className="basis-full rounded-lg max-h-[300px] overflow-hidden relative sm:basis-1/2 md:basis-1/3 aspect-[5/6] bg-slate-400 flex-shrink-0">
+    <div className="basis-full rounded-lg max-h-[300px] overflow-hidden relative sm:basis-1/2 md:basis-1/3 aspect-[5/6] flex-shrink-0">
       <Image src={src} fill alt="arena photo" style={{ objectFit: "cover" }} />
     </div>
   );

@@ -1,6 +1,6 @@
 
 import { ScrollShadow } from "@nextui-org/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const LastDays = () => {
   return <div className="flex flex-col  shrink-0 text-sm gap-1 font-sora items-center">
@@ -9,7 +9,8 @@ const LastDays = () => {
 </div>
 }
 const BnNav = () => {
-  let wd = 2000
+  const [wd, setWd] = useState(2000)
+
 
 
   const total = ((wd / 119) * 3).toFixed()
@@ -61,7 +62,9 @@ const BnNav = () => {
   //   return () => clearInterval(interval);
   // }, []);
 
-  
+  useEffect(() =>{
+    setWd(window.innerWidth)
+  }, [])
   return (
     <div className="bg-[#000]">
     <ScrollShadow hideScrollBar

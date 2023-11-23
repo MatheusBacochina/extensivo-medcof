@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Sora, Montserrat } from 'next/font/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 import './globals.css'
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${sora.variable} ${inter.variable} ${Mont.variable}`}>{children}</body>
+      <GoogleTagManager gtmId="GTM-5XPK7SC7" />
     </html>
   )
 }

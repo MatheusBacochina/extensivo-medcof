@@ -16,6 +16,7 @@ import Answers from "@/app/components/Answers/Answers";
 import BnNav from "@/app/components/BnNav/BnNav";
 import Doubt from "@/app/components/Doubt/Doubt";
 import Footer from "@/app/components/Footer/Footer";
+import Whats from "@/app/components/Whats/Whats";
 export default function HomeScreen({ id }: { id?: string }) {
   const data = pages[id || "extensivo-2024-rendoscopia"];
   return (
@@ -35,8 +36,9 @@ export default function HomeScreen({ id }: { id?: string }) {
       <FirstPlaces />
       <Cards elements={data.cards} />
       <Answers elements={data.accordionAnswersElite} />
-      <Doubt/>
-      <Footer / >
+      <Doubt />
+      <Footer />
+      <Whats />
     </>
   );
 }

@@ -45,7 +45,7 @@ const Bonus = () => {
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Curso de ECG
+            Curso de ECG
           </p>
         </div>
         <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
@@ -58,7 +58,7 @@ const Bonus = () => {
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Curso de Antibioticoterapia
+            Curso de Antibioticoterapia
           </p>
         </div>
         <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
@@ -71,7 +71,7 @@ const Bonus = () => {
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Curso de Ventilação Mecânica
+            Curso de Ventilação Mecânica
           </p>
         </div>
         <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
@@ -84,9 +84,7 @@ const Bonus = () => {
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Curso de Dermatologia
-(com imagens)
-
+            Curso de Dermatologia (com imagens)
           </p>
         </div>
         <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
@@ -99,27 +97,32 @@ const Bonus = () => {
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Curso de Tomboelastograma
+            Curso de Tomboelastograma
           </p>
         </div>
         <div className="card w-full self-stretch basis-[200px] sm:basis-[216px] md:basis-[225px] lg:basis-[233px] xl:basis-[241px] 2xl:basis-[250px]  rounded-[10px] p-5  flex flex-col items-center  border-opacity-10">
           <Image
-             width={40}
-             height={20}
+            width={40}
+            height={20}
             src={"/bonus8.svg"}
             alt="bonus8"
             className="opacity-70"
           />
 
           <p className="mt-4 text-center text-[16px] sm:text-[16px] md:text-[17px] lg:text-[17px] xl:text-[17px] 2xl:text-[18px]  font-sora font-semibold text-neutral-200">
-          Fichas resumo em PDF
-de todas as aulas
+            Fichas resumo em PDF de todas as aulas
           </p>
         </div>
       </div>
 
-      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
+      <button
+        onClick={() => {
+          const element = document.getElementById("price")?.offsetTop;
+          window.scrollTo({ top: element, behavior: "smooth" });
+        }}
+        className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all"
+      >
+        <span className="text-white text-[18px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

@@ -20,9 +20,11 @@ const EliteProgram = () => {
             alt="card1"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Considera importante ter o acompanhamento de professores especialistas para aprender com quem já passou nas melhores residências médicas do Brasil.
+            Considera importante ter o acompanhamento de professores
+            especialistas para aprender com quem já passou nas melhores
+            residências médicas do Brasil.
           </p>
         </div>
         <div className="card w-full self-stretch basis-[328px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
@@ -33,9 +35,10 @@ const EliteProgram = () => {
             alt="card2"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Está no Ciclo Clínico ou no último ano do Internato e deseja ser aprovado na residência dos sonhos o quanto antes.
+            Está no Ciclo Clínico ou no último ano do Internato e deseja ser
+            aprovado na residência dos sonhos o quanto antes.
           </p>
         </div>
         <div className="card w-full self-stretch basis-[328px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
@@ -46,9 +49,10 @@ const EliteProgram = () => {
             alt="card3"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Já é Médico e busca garantir uma carreira de sucesso através da aprovação nas melhores Residências Médicas do Brasil.
+            Já é Médico e busca garantir uma carreira de sucesso através da
+            aprovação nas melhores Residências Médicas do Brasil.
           </p>
         </div>
         <div className="card w-full self-stretch basis-[328px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
@@ -59,9 +63,10 @@ const EliteProgram = () => {
             alt="card4"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Quer buscar um método completo, validado e seguro para se diferenciar e garantir a aprovação em 2024.
+            Quer buscar um método completo, validado e seguro para se
+            diferenciar e garantir a aprovação em 2024.
           </p>
         </div>
         <div className="card w-full self-stretch basis-[328px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
@@ -72,9 +77,10 @@ const EliteProgram = () => {
             alt="card5"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Precisa de um direcionamento nos estudos por meio das nossas mentorias mensais coletivas.
+            Precisa de um direcionamento nos estudos por meio das nossas
+            mentorias mensais coletivas.
           </p>
         </div>
         <div className="card w-full self-stretch basis-[328px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
@@ -85,15 +91,22 @@ const EliteProgram = () => {
             alt="card6"
             className="opacity-70"
           />
-          
+
           <p className="mt-4 text-center text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  text-neutral-200">
-          Quer dormir com a consciência tranquila de que está com o material completo para fazer o seu programa de preparação.
+            Quer dormir com a consciência tranquila de que está com o material
+            completo para fazer o seu programa de preparação.
           </p>
         </div>
       </div>
 
-      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
+      <button
+        onClick={() => {
+          const element = document.getElementById("price")?.offsetTop;
+          window.scrollTo({ top: element, behavior: "smooth" });
+        }}
+        className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all"
+      >
+        <span className="text-white text-[18px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

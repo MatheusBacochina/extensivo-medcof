@@ -39,22 +39,26 @@ const Students = () => {
     if (containerRef.current) {
       containerRef.current.scrollLeft = containerRef.current.scrollWidth;
     }
-  
+
     function handleScroll() {
       if (containerRef.current) {
-        if (containerRef.current.scrollLeft >= (containerRef.current.scrollWidth / 2 - containerRef.current.offsetWidth)) {
+        if (
+          containerRef.current.scrollLeft >=
+          containerRef.current.scrollWidth / 2 -
+            containerRef.current.offsetWidth
+        ) {
           containerRef.current.scrollLeft -= 0.74;
         } else {
           containerRef.current.scrollLeft = containerRef.current.scrollWidth;
         }
       }
     }
-  
+
     // Start the interval loop
     const scrollInterval = setInterval(() => {
       handleScroll();
     }, 16); // Adjust the interval as needed for your desired scroll speed
-  
+
     // Cleanup function to clear the interval when the component unmounts
     return () => {
       clearInterval(scrollInterval);
@@ -96,8 +100,14 @@ const Students = () => {
         </span>{" "}
         e centenas de primeiros lugares comprovados – Do Norte ao Sul do Brasil.
       </p>
-      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
+      <button
+        onClick={() => {
+          const element = document.getElementById("price")?.offsetTop;
+          window.scrollTo({ top: element, behavior: "smooth" });
+        }}
+        className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all"
+      >
+        <span className="text-white text-[18px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

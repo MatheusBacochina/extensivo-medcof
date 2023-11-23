@@ -138,8 +138,14 @@ const Details = () => {
           />
         </div>
       </div>
-      <button className="cursor-pointer mt-10 button rounded-lg shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
+      <button
+        onClick={() => {
+          const element = document.getElementById("price")?.offsetTop;
+          window.scrollTo({ top: element, behavior: "smooth" });
+        }}
+        className="cursor-pointer mt-10 button rounded-lg shadow px-6 py-3 hover:scale-105 transition-all"
+      >
+        <span className="text-white text-[18px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

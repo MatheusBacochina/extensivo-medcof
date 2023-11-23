@@ -1,12 +1,15 @@
 "use client";
 import Logo from "@/app/components/Logo";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
+import { usePathname } from "next/navigation";
 const vimeoUrl = "https://player.vimeo.com/video/865690031?h=2678665bdb";
 const Header = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const refVideo = useRef<HTMLIFrameElement>(null);
+
   return (
     <header className="overflow-hidden pb-20 relative pt-2 px-4 background-header h-fit flex flex-col items-center isolate">
       <Bg
@@ -49,7 +52,6 @@ const Header = () => {
             onClick={() => {
               setVideoLoaded(true);
               if (refVideo.current) {
-                console.log("here");
                 var url = refVideo.current.src;
                 refVideo.current.src = url + "&autoplay=1";
               }
@@ -66,8 +68,14 @@ const Header = () => {
           </div>
         )}
       </div>
-      <button className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all">
-        <span className="text-white text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] font-normal font-inter leading-normal">
+      <button
+        onClick={() => {
+          const element = document.getElementById("price")?.offsetTop;
+          window.scrollTo({ top: element, behavior: "smooth" });
+        }}
+        className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all"
+      >
+        <span className="text-white text-[18px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

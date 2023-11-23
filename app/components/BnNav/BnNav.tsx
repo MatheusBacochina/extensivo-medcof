@@ -9,9 +9,14 @@ const LastDays = () => {
 </div>
 }
 const BnNav = () => {
-  const total: any = ((window.innerWidth / 119) * 3).toFixed()
+  let wd = 2000
 
-  const Elements: any = Array(+total).fill(<LastDays />)
+
+  const total = ((wd / 119) * 3).toFixed()
+
+  const Elements = Array(+total).fill(null).map((_, i) => (
+    <LastDays key={i} />
+  ))
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -39,7 +44,6 @@ const BnNav = () => {
       clearInterval(scrollInterval);
     };
   }, []);
-  console.log(Elements)
   // const initialTime = 15 * 60;
   // const [time, setTime] = useState(initialTime);
 
@@ -63,7 +67,7 @@ const BnNav = () => {
     <ScrollShadow hideScrollBar
     ref={containerRef}
     orientation="horizontal"
-    size={40} className="bg-[#000] overflow-x-auto gap-6 top-0 z-50 py-3 flex items-center px-6">
+    size={40} className="bg-[#000] overflow-x-auto gap-8 top-0 z-50 py-3 flex items-center px-6">
       {Elements }
     </ScrollShadow>
     </div>

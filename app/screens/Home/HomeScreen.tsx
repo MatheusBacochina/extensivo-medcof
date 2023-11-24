@@ -20,7 +20,9 @@ import Footer from "@/app/components/Footer/Footer";
 import Whats from "@/app/components/Whats/Whats";
 import TDC from "@/app/components/TDC/TDC";
 export default function HomeScreen({ id }: { id?: string }) {
-  const data = pages[id || "extensivo-r1-2024"];
+  let data = pages[id || "extensivo-r1-2024"];
+
+
   return (
     <>
       <BnNav />
@@ -28,7 +30,7 @@ export default function HomeScreen({ id }: { id?: string }) {
       <Numbers />
       <Team />
       <Students />
-     
+     {id === "extensivor1-tdc" || id === "extensivo-2024-r-clinica-medica-tdc" &&  <TDC /> }
       <Ia />
       <ChoiseMedcof />
       <Details />

@@ -19,9 +19,23 @@ function CheckIcon() {
 }
 const extensivor12024 = {
   ["extensivo-r1-2024"]: {
-    name: 'Extensivo 2024 - R1 Acesso Direto - Grupo MedCof',
+    name: "Extensivo 2024 - R1 Acesso Direto - Grupo MedCof",
     accordionElite: [...globalElite],
-    accordionAnswersElite: [...answersElite],
+    accordionAnswersElite: [
+      ...answersElite,
+      {
+        label:
+          "Não tenho condições de arcar com os preços dos cursos. existe algum programa de financiamento?",
+        content: (
+          <>
+            <p className="">
+              Sim. Acesse a página e saiba mais: {" "}
+              <a className="text-sky-600" href="https://www.grupomedcof.com.br/hipossuficiencia/">https://www.grupomedcof.com.br/hipossuficiencia/</a>
+            </p>
+          </>
+        ),
+      },
+    ],
     cards: [
       {
         avista: "R$4.697,00",

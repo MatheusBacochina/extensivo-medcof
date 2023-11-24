@@ -1,10 +1,15 @@
 import Image from "next/image";
 import PointsTdc1 from "../Svg/PointsTdc1";
 import PointsTdc2 from "../Svg/PointsTdc2";
+import { use, useEffect, useState } from "react";
 const TDC = () => {
-  return (
+  const [domLoaded, setDomLoaded] = useState(false);
+  useEffect(() => {
+    setDomLoaded(true);
+  },[])
+  return domLoaded && (
     <div className="md:flex-row flex-col flex bg-[#E3F2F9]">
-      <div className="flex-1 isolate relative flex md:py-28 py-16 items-center md:pl-12 px-6">
+      <div className="flex-1 isolate relative flex md:py-28 py-16 items-center md:pl-16 px-6">
       <PointsTdc2 />
         <h1 className=" font-poppins leading-none text-[24px] sm:text-[26px] md:text-[28px] lg:text-[29px] xl:text-[30px] 2xl:text-[32px] font-semibold">
           <span className="text-blue-800">MedCof Elite </span> +{" "}

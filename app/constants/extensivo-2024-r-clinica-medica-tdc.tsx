@@ -17,34 +17,25 @@ function CheckIcon() {
     </svg>
   );
 }
-const extensivo2024completaor1acessodireto = {
-  ["extensivo-2024-completao-r1-acesso-direto"]: {
-    name: 'Extensivo 2024 - R1 Acesso Direto - COMPLETÃO - Grupo MedCof',
+const extensivo2024rclinicamedicatdc = {
+  ["extensivo-2024-r-clinica-medica-tdc"]: {
+    name: 'Extensivo 2024 - R+ Clínica Médica - Grupo MedCof',
     accordionElite: [...globalElite],
-    accordionAnswersElite: [...answersElite, {
-      label:
-        "Não tenho condições de arcar com os preços dos cursos. existe algum programa de financiamento?",
-      content: (
-        <>
-          <p className="">
-            Sim. Acesse a página e saiba mais: {" "}
-            <a className="text-sky-600" href="https://www.grupomedcof.com.br/hipossuficiencia/">https://www.grupomedcof.com.br/hipossuficiencia/</a>
-          </p>
-        </>
-      ),
-    },],
+    accordionAnswersElite: [...answersElite],
     cards: [
       {
-        avista: "R$5.697,00",
-        price: "R$569,89",
-        de: "R$10.682,00",
+        avista: "R$5.197,00",
+        price: "R$519,87",
+        de: "R$9.985,00",
         order: "rightCard",
         name: (
           <>
-            INTERNATO EXTENSIVO <br />1 ANO <br /> R1 ACESSO DIRETO
+            EXTENSIVO
+            <br />
+            R+ CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-1-ano-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-clinica-medica-blacknovember",
         steps: [
           <p
             key={1}
@@ -58,7 +49,7 @@ const extensivo2024completaor1acessodireto = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024
+            Extensivo Anual 2024
           </p>,
           <p
             key={1}
@@ -81,28 +72,20 @@ const extensivo2024completaor1acessodireto = {
             <CheckIcon />
             Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
           </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            Fichas-resumo 2024 impressas na sua casa
-          </p>,
         ],
       },
       {
-        avista: "R$11.697,00",
-        price: "R$1.170,09",
-        de: "R$22.670,00",
-        order: "leftCard",
+        avista: "R$8.697,00",
+        price: "R$869,99",
+        de: "R$21.573,00",
+        order: "centerCard",
         name: (
           <>
-            COMPLETÃO 2 ANOS
-            <br />
-            R1 ACESSO DIRETO
+            EXTENSIVO ELITE <br />
+            R+ CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-2-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-clinica-medica-elite-blacknovember",
         steps: [
           <p
             key={1}
@@ -116,14 +99,14 @@ const extensivo2024completaor1acessodireto = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024
+            Extensivo Anual 2024
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Elite 2025
+            Intensivo HIIT
           </p>,
           <p
             key={1}
@@ -166,7 +149,7 @@ const extensivo2024completaor1acessodireto = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Fichas-resumo 2024 e 2025 impressas na sua casa
+            Fichas-resumo impressas na sua casa
           </p>,
           <p
             key={1}
@@ -175,23 +158,29 @@ const extensivo2024completaor1acessodireto = {
             <CheckIcon />
             Bônus: Acesso a Arena Elite em SP
           </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            Multimídia Dominada
+          </p>,
         ],
       },
-      ////////////////
       {
-        avista: "R$16.197,00",
-        price: "R$1.620,24",
-        de: "R$27.364,00",
+        avista: "R$15.697,00",
+        price: "R$1.570,22",
+        de: "R$26.679,00 ",
         order: "rightCard",
 
         name: (
           <>
-          COMPLETÃO 3 ANOS
-          <br />
-R1 ACESSO DIRETO
+            EXTENSIVO PREMIUM
+            <br />
+            R+ CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-3-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-clinica-medica-premium-blacknovember",
         steps: [
           <p
             key={1}
@@ -205,74 +194,39 @@ R1 ACESSO DIRETO
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024 e 2025
+            Plano Elite 2024
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Elite 2026
+            Seguro Aprovação
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Intensivo HIIT 2025
+            OSCE Dominado
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
-            <CheckIcon />Mentorias Coletivas e direcionamento de estudo
+            <CheckIcon />1 sessão mentoria Individual com Coordenador MedCof
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            Simulado Tendências Presencial em SP
           </p>,
-          <p
-          key={1}
-          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-        >
-          <CheckIcon />
-          Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
-        </p>,
-        <p
-        key={1}
-        className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-      >
-        <CheckIcon />
-        Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de revisão direcionadas)
-      </p>,
-      <p
-      key={1}
-      className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-    >
-      <CheckIcon />
-      Programa de Simulados Exclusivos
-    </p>,
-    <p
-    key={1}
-    className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-  >
-    <CheckIcon />
-    Bônus: Acesso a Arena Elite em SP
-  </p>,
-  <p
-  key={1}
-  className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
->
-  <CheckIcon />
-  Fichas-resumo 2024, 2025 e 2026 impressas na sua casa
-</p>,
         ],
       },
     ],
   },
 };
 
-export default extensivo2024completaor1acessodireto;
+export default extensivo2024rclinicamedicatdc;

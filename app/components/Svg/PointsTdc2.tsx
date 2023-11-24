@@ -1,7 +1,7 @@
 const PointsTdc2 = () => {
   return (
     <svg
-      className="absolute top-2 -z-10  left-2"
+      className="absolute top-4 -z-10  left-4"
       xmlns="http://www.w3.org/2000/svg"
       width="27"
       height="114"

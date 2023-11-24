@@ -91,7 +91,7 @@ const extensivor12024 = {
       {
         avista: "R$8.197,00",
         price: "R$819,97",
-        de: "R$8.197,00",
+        de: "R$21.573,00",
 
         order: "centerCard",
         name: (

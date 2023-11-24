@@ -28,7 +28,7 @@ export default function HomeScreen({ id }: { id?: string }) {
       <Numbers />
       <Team />
       <Students />
-      <TDC />
+     
       <Ia />
       <ChoiseMedcof />
       <Details />

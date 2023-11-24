@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const LastDays = () => {
   return <div className="flex flex-col  shrink-0 text-sm gap-1 font-sora items-center">
-  <h1 className="text-[#ff3232ec] font-bold sw1 leading-none">ULTIMOS DIAS</h1>
+  <h1 className="text-[#ff3232ec] font-semibold sw1 leading-none">ULTIMOS DIAS</h1>
   <h5 className="text-[#e5e5e5] uppercase font-semibold font-inter leading-none">Black November</h5>
 </div>
 }

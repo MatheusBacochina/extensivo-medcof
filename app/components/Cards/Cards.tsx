@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Cards = ({ elements }: any) => {
   return (
-    <div className="relative background-cards">
+    <div id="prices" className="relative background-cards">
        <Image src="/logo-bn.png" width={200} height={100} alt="logo bn" className="mx-auto my -3" />
-    <div id="price" className=" relative flex gap-6 items-end flex-wrap-reverse pt-5 pb-10 justify-center px-6">
+    <div  className=" relative flex gap-6 items-end flex-wrap-reverse pt-5 pb-10 justify-center px-6">
     
       {elements.map(({title,name, order, steps, price, avista, de, url}:{url: string,de: string,name: ReactNode, title: string, order: string, steps: any, price: string, avista: string}, index1: number) => {
         return  <div key={title} className={`basis-[350px] ${order} grow-0 px-6 py-10 flex flex-col items-center ${order === 'centerCard' ? 'max-[1129px]:order-1 max-[770px]:order-4' : ''}`}>

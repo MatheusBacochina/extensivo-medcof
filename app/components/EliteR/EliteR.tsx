@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 const EliteR = ({ elements }: any) => {
   return (
     <div className="flex flex-col bg-white relative isolate items-center pt-10 pb-20 px-4">
-      <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
+      <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-lg leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Confira agora tudo o que você vai ter acesso no plano Elite R1:
       </h3>
       <div className="w-[100px] h-[2px] opacity-80 bg-red-600 mx-auto mt-5"></div>
@@ -72,8 +72,11 @@ const EliteR = ({ elements }: any) => {
 
       <button
         onClick={() => {
-          const element = document.getElementById("price")?.offsetTop;
-          window.scrollTo({ top: element, behavior: "smooth" });
+          const element = document.getElementById("prices");
+          if (element) {
+            const boundingBox = element;
+            boundingBox.scrollIntoView();
+          }
         }}
         className="cursor-pointer button rounded-lg mt-14 shadow px-6 py-3 hover:scale-105 transition-all"
       >

@@ -140,8 +140,11 @@ const Details = () => {
       </div>
       <button
         onClick={() => {
-          const element = document.getElementById("price")?.offsetTop;
-          window.scrollTo({ top: element, behavior: "smooth" });
+          const element = document.getElementById("prices");
+          if (element) {
+            const boundingBox = element;
+            boundingBox.scrollIntoView();
+          }
         }}
         className="cursor-pointer mt-10 button rounded-lg shadow px-6 py-3 hover:scale-105 transition-all"
       >

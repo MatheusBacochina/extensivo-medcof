@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const extensivo2024rclinicamedica = {
   ["extensivo-2024-r-clinica-medica"]: {
+    name: 'Extensivo 2024 - R+ Clínica Médica - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

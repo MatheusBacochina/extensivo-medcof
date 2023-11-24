@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const extensivor12024 = {
   ["extensivo-r1-2024"]: {
+    name: 'Extensivo 2024 - R1 Acesso Direto - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

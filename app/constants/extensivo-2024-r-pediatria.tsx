@@ -21,6 +21,7 @@ const extensivo2024rpediatria = {
   ["extensivo-2024-r-pediatria"]: {
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
+    name: 'Extensivo 2024 - R+ Pediatria - Grupo MedCof',
     cards: [
       {
         avista: "R$5.197,00",

@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const extensivo2024rcirurgia = {
   ["extensivo-2024-r-cirurgia"]: {
+    name: 'Extensivo 2024 - R+ Cirurgia - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

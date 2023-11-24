@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const extensivo2024rmastologia = {
   ["extensivo-2024-r-mastologia"]: {
+    name: 'Extensivo 2024 - R+ Mastologia - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

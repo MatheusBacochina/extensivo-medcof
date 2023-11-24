@@ -1,3 +1,4 @@
+'use client';
 import Header from "@/app/components/Header/Header";
 import Numbers from "@/app/components/Numbers/Numbers";
 import Team from "@/app/components/Team/Team";
@@ -18,7 +19,7 @@ import Doubt from "@/app/components/Doubt/Doubt";
 import Footer from "@/app/components/Footer/Footer";
 import Whats from "@/app/components/Whats/Whats";
 export default function HomeScreen({ id }: { id?: string }) {
-  const data = pages[id || "extensivo-2024-rendoscopia"];
+  const data = pages[id || "extensivo-r1-2024"];
   return (
     <>
       <BnNav />

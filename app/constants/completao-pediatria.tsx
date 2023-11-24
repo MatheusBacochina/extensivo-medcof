@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const completaopediatria = {
   ["completao-pediatria"]: {
+    name: 'Extensivo 2024 - R+ Pediatria - COMPLETÃO - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

@@ -1,7 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.anim-top{
+  animation: animation-nav 30s infinite;
+  pointer-events: none;
+  user-select: none;
+}
 
+@keyframes animation-nav{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  100%{
+    transform: translate3d(-50%,0,0);
+  }
+}
 html {
   scroll-behavior: smooth;
 }

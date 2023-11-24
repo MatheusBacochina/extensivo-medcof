@@ -19,6 +19,7 @@ function CheckIcon() {
 }
 const extensivo2024rendoscopia = {
   ["extensivo-2024-rendoscopia"]: {
+    name: 'Extensivo 2024 - R+ Endoscopia - Grupo MedCof',
     accordionElite: [...globalElite],
     accordionAnswersElite: [...answersElite],
     cards: [

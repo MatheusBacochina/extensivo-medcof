@@ -21,6 +21,8 @@ import Whats from "@/app/components/Whats/Whats";
 import TDC from "@/app/components/TDC/TDC";
 export default function HomeScreen({ id }: { id?: string }) {
   let data = pages[id || "extensivo-r1-2024"];
+  const r = data.name.includes('R1') ? 'R1' : 'R+';
+
   return (
     <>
       <BnNav />
@@ -32,8 +34,8 @@ export default function HomeScreen({ id }: { id?: string }) {
       <Ia />
       <ChoiseMedcof />
       <Details />
-      <EliteR elements={data.accordionElite} />
-      <EliteProgram />
+      <EliteR r={r} elements={data.accordionElite} />
+      <EliteProgram r={r} />
       <Arena />
       <Bonus />
       <FirstPlaces />

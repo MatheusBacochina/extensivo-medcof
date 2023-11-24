@@ -6,7 +6,7 @@ import Link from "next/link";
 const Cards = ({ elements }: any) => {
   return (
     <div className="relative background-cards">
-       <Image src="/logo-bn.png" width={200} height={100} alt="logo bn" className="mx-auto my-3" />
+       <Image src="/logo-bn.png" width={200} height={100} alt="logo bn" className="mx-auto my -3" />
     <div id="price" className=" relative flex gap-6 items-end flex-wrap-reverse pt-5 pb-10 justify-center px-6">
     
       {elements.map(({title,name, order, steps, price, avista, de, url}:{url: string,de: string,name: ReactNode, title: string, order: string, steps: any, price: string, avista: string}, index1: number) => {

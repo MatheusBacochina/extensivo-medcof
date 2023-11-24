@@ -18,7 +18,7 @@ function CheckIcon() {
   );
 }
 const extensivor1tdc = {
-  ["extensivor1-tdc"]: {
+  ["extensivo-r1-tdc"]: {
     name: "Extensivo 2024 - R1 Acesso Direto - Grupo MedCof",
     accordionElite: [...globalElite],
     accordionAnswersElite: [
@@ -89,9 +89,10 @@ const extensivor1tdc = {
         ],
       },
       {
-        avista: "R$4.697,00",
-        price: "R$469,86",
-        de: "R$9.985,00",
+        avista: "R$8.197,00",
+        price: "R$819,97",
+        de: "R$8.197,00",
+
         order: "centerCard",
         name: (
           <>
@@ -183,9 +184,9 @@ const extensivor1tdc = {
         ],
       },
       {
-        avista: "R$15.697,00",
-        price: "R$819,97",
-        de: "R$8.197,00",
+        avista: "R$18.197,00",
+        price: "R$1.820,31",
+        de: "R$26.679,00",
         order: "rightCard",
 
         name: (
@@ -257,5 +258,6 @@ const extensivor1tdc = {
     ],
   },
 };
+
 
 export default extensivor1tdc;

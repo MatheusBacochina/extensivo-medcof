@@ -89,9 +89,10 @@ const extensivor12024 = {
         ],
       },
       {
-        avista: "R$4.697,00",
-        price: "R$469,86",
-        de: "R$9.985,00",
+        avista: "R$8.197,00",
+        price: "R$819,97",
+        de: "R$8.197,00",
+
         order: "centerCard",
         name: (
           <>
@@ -183,9 +184,9 @@ const extensivor12024 = {
         ],
       },
       {
-        avista: "R$15.697,00",
-        price: "R$819,97",
-        de: "R$8.197,00",
+        avista: "R$18.197,00",
+        price: "R$1.820,31",
+        de: "R$26.679,00",
         order: "rightCard",
 
         name: (

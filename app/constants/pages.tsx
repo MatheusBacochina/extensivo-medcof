@@ -8,7 +8,7 @@ import extensivo2024completaor1acessodireto from "./extensivo-2024-completao-r1-
 import completaorcirurgia from "./completao-r-cirurgia";
 import completaoclinicamedica from "./completao-clinica-medica";
 import completaopediatria from "./completao-pediatria";
-import extensivor1tdc from "./extensivor1-tdc";
+import extensivor1tdc from "./extensivo-r1-tdc";
 import extensivo2024rclinicamedicatdc from "./extensivo-2024-r-clinica-medica-tdc";
 export const pages: any = {
  ...extensivo2024rendoscopia,

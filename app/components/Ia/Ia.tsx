@@ -33,7 +33,7 @@ const Ia = () => {
         diariamente.
       </p>
 
-      <div className="w-full max-w-[1024px] mt-10 grid justify-center lg:grid-cols-[300px_1fr_300px] gap-y-8 grid-cols-[1fr] justify-items-center  grid-rows-[auto_auto_360px_auto_auto] lg:grid-rows-[360px_360px] gap-4 md:grid-cols-[300px_300px] md:grid-rows-[360px_360px_360px]">
+      <div className="w-full max-w-[1024px] mt-10 grid justify-center lg:grid-cols-[300px_1fr_300px] gap-y-8 grid-cols-[1fr] justify-items-center  grid-rows-[auto_auto_380px_auto_auto] lg:grid-rows-[380px_380px] gap-4 md:grid-cols-[300px_300px] md:grid-rows-[380px_380px_380px]">
         <div className="card w-full max-w-[300px] rounded-[10px] p-5 shadow border-2 border-white bg-[#FFFFFF1A] flex flex-col items-center  border-opacity-10">
           <Image
             width={50}

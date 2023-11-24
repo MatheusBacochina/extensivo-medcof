@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter, Sora, Montserrat } from 'next/font/google'
+import { Inter, Sora, Montserrat, Poppins } from 'next/font/google'
 import { GoogleTagManager } from '@next/third-parties/google'
 import './globals.css'
 
 
 const sora = Sora({ subsets: ['latin'], variable: '--font-sora' })
+const poppins = Poppins({ subsets: ['latin'], variable: '--font-poppins', weight: ['400', '500', '600', '700'] })
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', weight: ['400', '500', '600', '700'] })
 const Mont = Montserrat({ subsets: ['latin'], variable: '--font-mont', weight: ['400', '500', '600', '700'] })
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`${sora.variable} ${inter.variable} ${Mont.variable}`}>{children}</body>
+      <body className={`${sora.variable} ${inter.variable} ${Mont.variable} ${poppins.variable}`}>{children}</body>
       <GoogleTagManager gtmId="GTM-5XPK7SC7" />
     </html>
   )

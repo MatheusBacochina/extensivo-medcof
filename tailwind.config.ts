@@ -12,6 +12,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       sora: ["var(--font-sora)"],
+      poppin: ["var(--font-poppins)"],
       inter: ["var(--font-inter)"],
       mont: ["var(--font-mont)"],
     },

@@ -12,12 +12,7 @@ export async function generateMetadata(
   { params, searchParams }: Props,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
-  // read route params
   const id = params.id;
-
-  // fetch data
-
-  // optionally access and extend (rather than replace) parent metadata
 
   return {
     title: pages[id].name,

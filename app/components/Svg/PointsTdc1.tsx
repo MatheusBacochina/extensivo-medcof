@@ -1,5 +1,5 @@
 const PointsTdc1 = () => {
-    return <svg className="absolute right-0 bottom-0 opacity-50" xmlns="http://www.w3.org/2000/svg" width="130" height="158" viewBox="0 0 130 158" fill="none">
+    return <svg className="absolute -right-0 bottom-0 opacity-50" xmlns="http://www.w3.org/2000/svg" width="130" height="158" viewBox="0 0 130 158" fill="none">
     <path d="M5 2.5C5 3.88071 3.88071 5 2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0C3.88071 0 5 1.11929 5 2.5Z" fill="white" fill-opacity="0.38"/>
     <path d="M20 2.5C20 3.88071 18.8807 5 17.5 5C16.1193 5 15 3.88071 15 2.5C15 1.11929 16.1193 0 17.5 0C18.8807 0 20 1.11929 20 2.5Z" fill="white" fill-opacity="0.38"/>
     <path d="M35 2.5C35 3.88071 33.8807 5 32.5 5C31.1193 5 30 3.88071 30 2.5C30 1.11929 31.1193 0 32.5 0C33.8807 0 35 1.11929 35 2.5Z" fill="white" fill-opacity="0.38"/>

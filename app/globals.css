@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .sw1{
   text-shadow: 0 0 10px rgba(255, 50, 50, 0.8),
                0 0 20px rgba(255, 50, 50, 0.8),
@@ -815,7 +816,7 @@
       1.9000000000000001s both;
 }
 .animation-h1 {
-  animation: h1_anim 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: h1_anim 1.8s cubic-bezier(0.075, 0.82, 0.165, 1) backwards;
 }
 @keyframes h1_anim {
   0% {

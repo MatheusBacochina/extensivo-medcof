@@ -217,7 +217,7 @@ const extensivo2024rcirurgia = {
       {
         avista: "R$15.697,00",
         price: "R$1.570,22",
-        de: "R$26.679,00 ",
+        de: "R$23.785,00",
         order: "rightCard",
 
         name: (

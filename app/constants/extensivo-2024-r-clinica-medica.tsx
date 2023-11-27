@@ -93,7 +93,7 @@ const extensivo2024rclinicamedica = {
       {
         avista: "R$8.697,00",
         price: "R$869,99",
-        de: "R$21.573,00",
+        de: "R$19.970,00",
         order: "centerCard",
         name: (
           <>

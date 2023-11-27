@@ -29,7 +29,8 @@ const Header = () => {
         }
       />
       <Logo />
-      <h1 className="text-[#fffffff3] animation-h1 max-w-[816px] mt-7 leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px] ">
+      <h1 style={{animationDelay: "0.5s"}} className="mt-7 text-[#fffffff3] animation-h1 delas max-w-[816px] leading-tight text-center font-semibold font-mont text-[18px]">BLACK NOVEMBER MEDCOF</h1>
+      <h1 className="text-[#fffffff3] mt-4 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
         Comece a estudar 6 meses antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">
@@ -68,6 +69,7 @@ const Header = () => {
           </div>
         )}
       </div>
+      <p className="max-w-[500px] text-[14px] leading-snug mt-2 text-center text-slate-300">O método que aprovou os primeiros lugares da USP, ENARE, UNIFESP, PSU-MG, AMP, AMRIGS, UNICAMP E MUITAS OUTRAS!</p>
       <button
         onClick={() => {
           const element = document.getElementById("prices");

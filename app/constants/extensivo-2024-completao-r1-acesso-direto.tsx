@@ -19,20 +19,28 @@ function CheckIcon() {
 }
 const extensivo2024completaor1acessodireto = {
   ["extensivo-2024-completao-r1-acesso-direto"]: {
-    name: 'Extensivo 2024 - R1 Acesso Direto - COMPLETÃO - Grupo MedCof',
+    name: "Extensivo 2024 - R1 Acesso Direto - COMPLETÃO - Grupo MedCof",
     accordionElite: [...globalElite],
-    accordionAnswersElite: [...answersElite, {
-      label:
-        "Não tenho condições de arcar com os preços dos cursos. existe algum programa de financiamento?",
-      content: (
-        <>
-          <p className="">
-            Sim. Acesse a página e saiba mais: {" "}
-            <a className="text-sky-600" href="https://www.grupomedcof.com.br/hipossuficiencia/">https://www.grupomedcof.com.br/hipossuficiencia/</a>
-          </p>
-        </>
-      ),
-    },],
+    accordionAnswersElite: [
+      ...answersElite,
+      {
+        label:
+          "Não tenho condições de arcar com os preços dos cursos. existe algum programa de financiamento?",
+        content: (
+          <>
+            <p className="">
+              Sim. Acesse a página e saiba mais:{" "}
+              <a
+                className="text-sky-600"
+                href="https://www.grupomedcof.com.br/hipossuficiencia/"
+              >
+                https://www.grupomedcof.com.br/hipossuficiencia/
+              </a>
+            </p>
+          </>
+        ),
+      },
+    ],
     cards: [
       {
         avista: "R$5.697,00",
@@ -51,42 +59,61 @@ const extensivo2024completaor1acessodireto = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024
+            <p className="inline">
+              Extensivo Programado 2024
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            <p className="inline">
+              Acesso Anual ao qBank com Milhares questões
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Programa de Simulados Exclusivos Mensais
+            <p className="inline">
+              Programa de Simulados Exclusivos Mensais
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <p className="inline">
+              Sistema de Flashcards exclusivo com Revisão Intervalada
+              inteligente
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Fichas-resumo 2024 impressas na sua casa
+            <p className="inline">
+              Fichas-resumo 2024 impressas na sua casa
+              <s className="ml-2 text-[13px]">R$697,00</s>
+            </p>
           </p>,
         ],
       },
@@ -109,71 +136,99 @@ const extensivo2024completaor1acessodireto = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024
+            <p className="inline">
+              Extensivo Programado 2024
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Elite 2025
+            <p className="inline">
+              Extensivo Elite 2025
+              <s className="ml-2 text-[13px]">R$7.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Mentorias Coletivas e direcionamento de estudo
+            <p className="inline">
+              Mentorias Coletivas e direcionamento de estudo
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            <p className="inline">
+              Acesso Anual ao qBank com Milhares questões
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <p className="inline">
+              Sistema de Flashcards exclusivo com Revisão Intervalada
+              inteligente
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de
-            revisão direcionadas)
+            <p className="inline">
+              Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives
+              de revisão direcionadas)
+              <s className="ml-2 text-[13px]">R$1.297,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Programa de Simulados Exclusivos
+            <p className="inline">
+              Programa de Simulados Exclusivos
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Fichas-resumo 2024 e 2025 impressas na sua casa
+            <p className="inline">
+              Fichas-resumo 2024 e 2025 impressas na sua casa
+              <s className="ml-2 text-[13px]">R$1.394,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Bônus: Acesso a Arena Elite em SP
+            <p className="inline">Bônus: Acesso a Arena Elite em SP</p>
           </p>,
         ],
       },
@@ -186,9 +241,9 @@ const extensivo2024completaor1acessodireto = {
 
         name: (
           <>
-          COMPLETÃO 3 ANOS
-          <br />
-R1 ACESSO DIRETO
+            COMPLETÃO 3 ANOS
+            <br />
+            R1 ACESSO DIRETO
           </>
         ),
         url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-3-anos-blacknovember",
@@ -198,77 +253,112 @@ R1 ACESSO DIRETO
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Programado 2024 e 2025
+            <p className="inline">
+              Extensivo Programado 2024 e 2025
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Elite 2026
+            <p className="inline">
+              Extensivo Elite 2026
+              <s className="ml-2 text-[13px]">R$7.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Intensivo HIIT 2025
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />Mentorias Coletivas e direcionamento de estudo
+            <p className="inline">
+              Intensivo HIIT 2025
+              <s className="ml-2 text-[13px]">R$3.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            <p className="inline">
+              Mentorias Coletivas e direcionamento de estudo
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
-          key={1}
-          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-        >
-          <CheckIcon />
-          Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
-        </p>,
-        <p
-        key={1}
-        className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-      >
-        <CheckIcon />
-        Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de revisão direcionadas)
-      </p>,
-      <p
-      key={1}
-      className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-    >
-      <CheckIcon />
-      Programa de Simulados Exclusivos
-    </p>,
-    <p
-    key={1}
-    className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-  >
-    <CheckIcon />
-    Bônus: Acesso a Arena Elite em SP
-  </p>,
-  <p
-  key={1}
-  className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
->
-  <CheckIcon />
-  Fichas-resumo 2024, 2025 e 2026 impressas na sua casa
-</p>,
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Acesso Anual ao qBank com Milhares questões
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Sistema de Flashcards exclusivo com Revisão Intervalada
+              inteligente
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives
+              de revisão direcionadas)
+              <s className="ml-2 text-[13px]">R$1.297,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p> Programa de Simulados Exclusivos
+            <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+            Bônus: Acesso a Arena Elite em SP
+        
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+            Fichas-resumo 2024, 2025 e 2026 impressas na sua casa
+            <s className="ml-2 text-[13px]">R$2.091,00</s>
+            </p>
+          </p>,
         ],
       },
     ],

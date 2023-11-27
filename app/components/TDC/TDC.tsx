@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import PointsTdc1 from "../Svg/PointsTdc1";
 import PointsTdc2 from "../Svg/PointsTdc2";

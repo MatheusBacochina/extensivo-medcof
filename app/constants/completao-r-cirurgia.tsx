@@ -42,71 +42,100 @@ const completaorcirurgia = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Extensivo Programado 2024
+            <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Intensivo HIIT 2025
+            <s className="ml-2 text-[13px]">R$3.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Mentorias Coletivas e direcionamento de estudo
+            <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso Anual ao qBank com Milhares questões
+            <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de
             revisão direcionadas)
+            <s className="ml-2 text-[13px]">R$1.297,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Programa de Simulados Exclusivos
+            <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p>
             Fichas-resumo 2025 impressas na sua casa
+            <s className="ml-2 text-[13px]">R$697,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Bônus: Acesso a Arena Elite em SP
+            </p>
           </p>,
         ],
       }, /////////////////
@@ -129,56 +158,80 @@ const completaorcirurgia = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p>
             Extensivo Programado 2024 e 2025
+            <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Intensivo HIIT 2025 e 2026
+            <s className="ml-2 text-[13px]">R$3.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Mentorias Coletivas e direcionamento de estudo
+            <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso Anual ao qBank com Milhares questões
+            <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de revisão direcionadas)
+            <s className="ml-2 text-[13px]">R$1.297,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Programa de Simulados Exclusivos
+            <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
@@ -192,7 +245,10 @@ const completaorcirurgia = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">
             Fichas-resumo 2026 impressas na sua casa
+            <s className="ml-2 text-[13px]">R$697,00</s>
+            </p>
           </p>,
          
         ],

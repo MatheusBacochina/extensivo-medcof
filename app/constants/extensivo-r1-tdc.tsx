@@ -50,41 +50,57 @@ const extensivor1tdc = {
           </>
         ),
         url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r1-acesso-direto-blacknovember",
-        steps: [
+        steps:[
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Anual 2024
+            <p className="inline">
+              Extensivo Anual 2024
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            <p className="inline">
+              Acesso Anual ao qBank com Milhares questões
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Programa de Simulados Exclusivos Mensais
+            <p className="inline">
+              Programa de Simulados Exclusivos Mensais
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <p className="inline">
+              Sistema de Flashcards exclusivo com Revisão Intervalada
+              inteligente
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
         ],
       },
@@ -108,64 +124,92 @@ const extensivor1tdc = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Extensivo Anual 2024
+            <p className="inline">
+              Extensivo Anual 2024
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Intensivo HIIT
+            <p className="inline">
+              Intensivo HIIT
+              <s className="ml-2 text-[13px]">R$3.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Mentorias Coletivas e direcionamento de estudo
+            <p className="inline">
+              Mentorias Coletivas e direcionamento de estudo
+              <s className="ml-2 text-[13px]">R$3.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso Anual ao qBank com Milhares questões
+            <p className="inline">
+              Acesso Anual ao qBank com Milhares questões
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Sistema de Flashcards exclusivo com Revisão Intervalada inteligente
+            <p className="inline">
+              Sistema de Flashcards exclusivo com Revisão Intervalada
+              inteligente
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives de
-            revisão direcionadas)
+            <p className="inline">
+              Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives
+              de revisão direcionadas)
+              <s className="ml-2 text-[13px]">R$1.297,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Programa de Simulados Exclusivos
+            <p className="inline">
+              Programa de Simulados Exclusivos
+              <s className="ml-2 text-[13px]">R$497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Fichas-resumo impressas na sua casa
+            <p className="inline">
+              Fichas-resumo impressas na sua casa
+              <s className="ml-2 text-[13px]">R$697,00</s>
+            </p>
           </p>,
           <p
             key={1}
@@ -179,7 +223,10 @@ const extensivor1tdc = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Multimídia Dominada
+            <p className="inline">
+              Multimídia Dominada
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
         ],
       },
@@ -203,55 +250,79 @@ const extensivor1tdc = {
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Plano Elite 2024
+            <p className="inline">
+              Plano Elite 2024
+              <s className="ml-2 text-[13px]">R$7.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Seguro Aprovação
+            <p className="inline">
+              Seguro Aprovação
+              <s className="ml-2 text-[13px]">R$7.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            Imersão Hands On (Curso prático presencial de 2 dias em SP)
+            <p className="inline">
+              Imersão Hands On (Curso prático presencial de 2 dias em SP)
+              <s className="ml-2 text-[13px]">R$4.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
-            OSCE Dominado
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />1 sessão mentoria Individual com Coordenador MedCof
+            <p className="inline">
+              OSCE Dominado
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p className="inline">1 sessão mentoria Individual com Coordenador MedCof
+            <s className="ml-2 text-[13px]">R$2.000,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
             Simulado Tendências Presencial em SP
+            <s className="ml-2 text-[13px]">R$297,00</s>
+            </p>
           </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
+            <p>
             CofCards físicos
+            <s className="ml-2 text-[13px]">R$897,00</s>
+            </p>
           </p>,
         ],
       },

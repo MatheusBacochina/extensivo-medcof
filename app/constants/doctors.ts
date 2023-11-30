@@ -137,12 +137,62 @@ export const alunos = [
   },
 ];
 
+export const alunosR1 = [
+  {
+    name: "Alexandre Lemos Bortolotto",
+    instituição: "EINSTEIN",
+    desc: "em Clínica Médica",
+    src: "/alunos/r1/AlexandreLemosBortolotto.png",
+    alt: "Alexandre Lemos Borto Lotto",
+  },
+  {
+    name: "Isabela Argolo Ferreira",
+    instituição: "EINSTEIN",
+    desc: "em Medicina Intensiva",
+    src: "/alunos/r1/IsabelaArgoloFerreira.png",
+    alt: "Isabela Argolo Ferreira",
+  },
+  {
+    name: "Maria Fernanda Santos Caldeira",
+    instituição: "EINSTEIN",
+    desc: "em Ginecologia e Obstetricia",
+    src: "/alunos/r1/MariaFernandaSantosCaldeira.png",
+    alt: "Maria Fernanda Santos Caldeira",
+  },
+  {
+    name: "Iago Ferraz Vasconcelos",
+    instituição: "ENARE",
+    desc: "em Dermatologia",
+    src: "/alunos/r1/IagoFerrazVasconcelos.png",
+    alt: "Iago Ferraz Vasconcelos",
+  },
+  {
+    name: "Dácio Josué Souza Dias",
+    instituição: "ENARE",
+    desc: "em Cirurgia Geral",
+    src: "/alunos/r1/DacioJosueSouzaDias.png",
+    alt: "Dácio Josué Souza Dias",
+  },
+  {
+    name: "Diego Medeiros Delgado",
+    instituição: "ENARE",
+    desc: "em Dermatologia",
+    src: "/alunos/r1/DiegoMedeirosDelgado.png",
+    alt: "Diego Medeiros Delgado",
+  },
+  {
+    name: "Jose da Cruz Moura Campelo",
+    instituição: "ENARE",
+    desc: "em Cirurgia Geral",
+    src: "/alunos/r1/JosedaCruzMouraCampelo.png",
+    alt: "Jose da Cruz Moura Campelo",
+  },
+];
 
-export const arena=[
-
-  '/arena2.webp',
-  '/arena3.webp',
-  '/arena4.webp',
-  '/arena6.webp',
-  '/arena7.webp',
-]
+export const arena = [
+  "/arena2.webp",
+  "/arena3.webp",
+  "/arena4.webp",
+  "/arena6.webp",
+  "/arena7.webp",
+];

@@ -180,25 +180,13 @@
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1342fe58,
     0 0 0.8rem #1379fe63, 0 0 2.8rem #1356fe4d, inset 0 0 1.3rem #13a4fe49;
 }
-@keyframes neonPulse {
-  0% {
-    text-shadow: 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
-      0 0 10vw #1da3dc7b;
-  }
-  50% {
-    text-shadow: 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
-      0 0 10vw #1da3dc7b, 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
-      0 0 10vw #1da3dc7b;
-  }
-  100% {
-    text-shadow: 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
-      0 0 10vw #1da3dc7b;
-  }
-}
+
 
 .h1-hero {
   color: #ffffff;
-  animation: neonPulse 2s infinite; /* 2s de duração, repetição infinita */
+  text-shadow: 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
+      0 0 10vw #1da3dc7b, 0 0 1vw #1da2dc, 0 0 3vw #0059ac, 0 0 10vw #1da2dc,
+      0 0 10vw #1da3dc7b;
 }
 
 

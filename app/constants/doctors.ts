@@ -201,6 +201,13 @@ export const alunosR1 = [
     src: "/alunos/r1/LucasGermanoFigueiredoVieira.png",
     alt: "Lucas Germano Figueiredo Vieira",
   },
+  {
+    name: "Petrus Emmanuel Araujo de Meneses Brito",
+    instituição: "SES-PE",
+    desc: "em Radiologia e Diagnóstico por Imagem",
+    src: "/alunos/r1/PetrusEmmanuelAraujodeMenesesBrito.png",
+    alt: "Petrus Emmanuel Araujo de Meneses Brito",
+  },
 ];
 
 export const arena = [

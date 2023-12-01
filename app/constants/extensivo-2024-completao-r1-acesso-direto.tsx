@@ -94,6 +94,16 @@ const extensivo2024completaor1acessodireto = {
               <s className="ml-2 text-[13px]">R$497,00</s>
             </p>
           </p>,
+            <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Mentorias Coletivas e direcionamento de estudo
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
+          </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"

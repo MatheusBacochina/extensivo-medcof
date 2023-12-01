@@ -1,10 +1,8 @@
 "use client";
 import Logo from "@/app/components/Logo";
 import Image from "next/image";
-import Link from "next/link";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
-import { usePathname } from "next/navigation";
 const vimeoUrl = "https://player.vimeo.com/video/865690031?h=2678665bdb";
 const Header = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -34,7 +32,7 @@ const Header = () => {
         Comece a estudar 6 meses antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">
-          seja aprovado na residência médica que você quiser
+          seja aprovado na residência médica que você quiser!
         </span>
       </h1>
       <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl isolate group overflow-hidden w-full relative aspect-video mt-6 grid">

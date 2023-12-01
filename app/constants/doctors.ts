@@ -208,6 +208,13 @@ export const alunosR1 = [
     src: "/alunos/r1/PetrusEmmanuelAraujodeMenesesBrito.png",
     alt: "Petrus Emmanuel Araujo de Meneses Brito",
   },
+  {
+    name: "Marcelo Dall’Agnol",
+    instituição: "SÍRIO LIBANÊS",
+    desc: "em Endoscopia",
+    src: "/alunos/r1/MarceloDall’Agnol.png",
+    alt: "Marcelo Dall’Agnol",
+  },
 ];
 
 export const arena = [

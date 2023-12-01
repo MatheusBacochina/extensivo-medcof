@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ScrollShadow } from "@nextui-org/react";
 import { alunos } from "@/app/constants/doctors";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 function Student({
   src,

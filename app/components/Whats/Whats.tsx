@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Whats = () => {
   return (
-    <Link href="https://api.whatsapp.com/send/?phone=5511939051731&text=Gostaria+de+falar+com+o+suporte&type=phone_number&app_absent=0">
+    <Link href="https://www.grupomedcof.com.br/suporte-whatsapp">
     <button className="fixed z-50 bottom-9 right-9">
       <svg
         xmlns="http://www.w3.org/2000/svg"

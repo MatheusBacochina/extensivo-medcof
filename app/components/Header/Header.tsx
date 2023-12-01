@@ -32,7 +32,7 @@ const Header = () => {
         Comece a estudar 6 meses antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">
-          seja aprovado na residência médica que você quiser
+          seja aprovado na residência médica que você quiser!!
         </span>
       </h1>
       <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl isolate group overflow-hidden w-full relative aspect-video mt-6 grid">

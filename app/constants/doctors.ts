@@ -187,6 +187,13 @@ export const alunosR1 = [
     src: "/alunos/r1/JosedaCruzMouraCampelo.png",
     alt: "Jose da Cruz Moura Campelo",
   },
+  {
+    name: "Felipe Sant Maria Naques",
+    instituição: "SCMRP",
+    desc: "em Neurocirurgia",
+    src: "/alunos/r1/FelipeSantMariaNaques.png",
+    alt: "Jose da Cruz Moura Campelo",
+  },
 ];
 
 export const arena = [

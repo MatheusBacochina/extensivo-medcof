@@ -194,6 +194,13 @@ export const alunosR1 = [
     src: "/alunos/r1/FelipeSantMariaNaques.png",
     alt: "Jose da Cruz Moura Campelo",
   },
+  {
+    name: "Lucas Germano Figueiredo Vieira",
+    instituição: "SES-PE",
+    desc: "em Medicina Intensiva",
+    src: "/alunos/r1/LucasGermanoFigueiredoVieira.png",
+    alt: "Lucas Germano Figueiredo Vieira",
+  },
 ];
 
 export const arena = [

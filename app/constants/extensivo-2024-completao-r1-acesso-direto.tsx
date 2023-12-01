@@ -157,7 +157,7 @@ const extensivo2024completaor1acessodireto = {
           >
             <CheckIcon />
             <p className="inline">
-              Extensivo Elite 2025
+              Extensivo Elite 2025 (Extensivo, Intensivo, Mentoria, Multimídia dominada)
               <s className="ml-2 text-[13px]">R$7.997,00</s>
             </p>
           </p>,

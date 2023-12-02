@@ -43,8 +43,8 @@ const extensivor12024 = {
     ],
     cards: [
       {
-        avista: "R$4.697,00",
-        price: "R$469,86",
+        avista: "R$5.397,00",
+        price: "R$539,88",
         de: "R$9.985,00",
         order: "leftCard",
         name: (
@@ -54,7 +54,7 @@ const extensivor12024 = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r1-acesso-direto-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-ext-r1-acesso-direto",
         steps: [
           <p
             key={1}
@@ -110,8 +110,8 @@ const extensivor12024 = {
         ],
       },
       {
-        avista: "R$8.197,00",
-        price: "R$819,97",
+        avista: "R$8.897,00",
+        price: "R$889,11",
         de: "R$21.970,00",
 
         order: "centerCard",
@@ -122,7 +122,7 @@ const extensivor12024 = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r1-acesso-direto-elite-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-r1-acesso-direto-elite-blacknovember",
         steps: [
           <p
             key={1}
@@ -236,8 +236,8 @@ const extensivor12024 = {
         ],
       },
       {
-        avista: "R$18.197,00",
-        price: "R$1.820,31",
+        avista: "R$18.897,00",
+        price: "R$1.888,44",
         de: "R$26.679,00",
         order: "rightCard",
 
@@ -248,7 +248,7 @@ const extensivor12024 = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r1-acesso-direto-premium-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-premium",
         steps: [
           <p
             key={1}

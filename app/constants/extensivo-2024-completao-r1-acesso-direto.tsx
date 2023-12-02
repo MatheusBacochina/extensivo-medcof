@@ -43,8 +43,8 @@ const extensivo2024completaor1acessodireto = {
     ],
     cards: [
       {
-        avista: "R$5.697,00",
-        price: "R$569,89",
+        avista: "R$6.397,00",
+        price: "R$639,91",
         de: "R$10.682,00",
         order: "rightCard",
         name: (
@@ -52,7 +52,7 @@ const extensivo2024completaor1acessodireto = {
             INTERNATO EXTENSIVO <br />1 ANO <br /> R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-1-ano-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-r1-acesso-direto-1-ano-copia",
         steps: [
           <p
             key={1}
@@ -128,8 +128,8 @@ const extensivo2024completaor1acessodireto = {
         ],
       },
       {
-        avista: "R$11.697,00",
-        price: "R$1.170,09",
+        avista: "R$12.397,00",
+        price: "R$1.240,11",
         de: "R$22.670,00",
         order: "leftCard",
         name: (
@@ -139,7 +139,7 @@ const extensivo2024completaor1acessodireto = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-2-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-r1-acesso-direto-2-anos",
         steps: [
           <p
             key={1}
@@ -244,8 +244,8 @@ const extensivo2024completaor1acessodireto = {
       },
       ////////////////
       {
-        avista: "R$16.197,00",
-        price: "R$1.620,24",
+        avista: "R$16.897,00",
+        price: "R$1.690,26",
         de: "R$27.364,00",
         order: "rightCard",
 
@@ -256,7 +256,7 @@ const extensivo2024completaor1acessodireto = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-3-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r1-acesso-direto-3-anos",
         steps: [
           <p
             key={1}

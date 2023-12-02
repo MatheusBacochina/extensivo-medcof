@@ -24,8 +24,8 @@ const completaorcirurgia = {
     accordionAnswersElite: [...answersElite],
     cards: [
       {
-        avista: "R$12.697,00",
-        price: "R$1.270,12",
+        avista: "R$12.997,00",
+        price: "R$1.298,83",
         de: "R$21.573,00",
         order: "rightCard",
         name: (
@@ -35,7 +35,7 @@ const completaorcirurgia = {
             R+ CIRURGIA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r-cirurgia-2-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-cirurgia-2-anos",
         steps: [
           <p
             key={1}
@@ -140,8 +140,8 @@ const completaorcirurgia = {
         ],
       }, /////////////////
       {
-        avista: "R$17.697,00",
-        price: "R$1.770,29",
+        avista: "R$17.997,00",
+        price: "R$1.798,50",
         de: "R$26.679,00",
         order: "rightCard",
 
@@ -151,7 +151,7 @@ const completaorcirurgia = {
             R+ CIRURGIA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r-cirurgia-3-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-r-cirurgia-3-anos",
         steps: [
           <p
             key={1}

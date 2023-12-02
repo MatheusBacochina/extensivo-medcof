@@ -24,8 +24,8 @@ const extensivo2024rcirurgia = {
     accordionAnswersElite: [...answersElite],
     cards: [
       {
-        avista: "R$5.197,00",
-        price: "R$519,87",
+        avista: "R$5.497,00",
+        price: "R$549,88",
         de: "R$9.985,00",
         order: "rightCard",
         name: (
@@ -35,7 +35,7 @@ const extensivo2024rcirurgia = {
             R+ CIRURGIA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-cirurgia-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-cirurgia",
         steps: [
           <p
             key={1}
@@ -91,8 +91,8 @@ const extensivo2024rcirurgia = {
         ],
       },
       {
-        avista: "R$8.697,00",
-        price: "R$869,99",
+        avista: "R$8.997,00",
+        price: "R$899,10",
         de: "R$21.573,00",
         order: "centerCard",
         name: (
@@ -101,7 +101,7 @@ const extensivo2024rcirurgia = {
             R+ CIRURGIA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-cirurgia-elite-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-cirurgia-elite",
         steps: [
           <p
             key={1}
@@ -215,8 +215,8 @@ const extensivo2024rcirurgia = {
         ],
       },
       {
-        avista: "R$15.697,00",
-        price: "R$1.570,22",
+        avista: "R$15.997,00",
+        price: "R$1.598,63",
         de: "R$23.785,00",
         order: "rightCard",
 
@@ -227,7 +227,7 @@ const extensivo2024rcirurgia = {
             R+ CIRURGIA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-extensivo-r-cirurgia-premium-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-cirurgia-elite-premium",
         steps: [
           <p
             key={1}

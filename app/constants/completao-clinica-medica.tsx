@@ -24,8 +24,8 @@ const completaoclinicamedica = {
     accordionAnswersElite: [...answersElite],
     cards: [
       {
-        avista: "R$12.697,00",
-        price: "R$1.270,12",
+        avista: "R$12.997,00",
+        price: "R$1.298,83",
         de: "R$21.573,00",
         order: "rightCard",
         name: (
@@ -34,7 +34,7 @@ const completaoclinicamedica = {
             CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r-clinica-medica-2-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-r-clinica-medica-2-anos",
         steps: [
           <p
             key={1}
@@ -139,8 +139,8 @@ const completaoclinicamedica = {
         ],
       }, /////////////////
       {
-        avista: "R$17.697,00",
-        price: "R$1.770,29",
+        avista: "R$17.997,00",
+        price: "R$1.798,50",
         de: "R$26.679,00",
         order: "rightCard",
 
@@ -150,7 +150,7 @@ const completaoclinicamedica = {
             CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-completao-r-clinica-medica-3-anos-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/completao-r-clinica-medica-3-anos",
         steps: [
           <p
             key={1}

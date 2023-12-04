@@ -28,7 +28,7 @@ const Header = () => {
       />
         <Image priority src="/medcof.png" alt="logo medcof" width={214} height={66} className="mt-10 fade-in h1-hero" />
       <h1 className="text-[#fffffff3] mt-8 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
-        Comece a estudar 6 meses antes dos seus concorrentes e{" "}
+      Comece a estudar antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">
           seja aprovado na residência médica que você quiser!

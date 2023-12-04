@@ -1,5 +1,4 @@
 "use client";
-import Logo from "@/app/components/Logo";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
@@ -10,6 +9,7 @@ const Header = () => {
 
   return (
     <header className="overflow-hidden pb-20 relative pt-2 px-4 background-header h-fit flex flex-col items-center isolate">
+   
       <Bg
         logo={
           <svg
@@ -26,9 +26,8 @@ const Header = () => {
           </svg>
         }
       />
-      <Logo />
-      <h1 style={{animationDelay: "0.5s"}} className="mt-7 text-[#fffffff3] animation-h1 delas max-w-[816px] leading-tight text-center font-semibold font-mont text-[18px]">BLACK NOVEMBER MEDCOF</h1>
-      <h1 className="text-[#fffffff3] mt-4 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
+        <Image priority src="/medcof.png" alt="logo medcof" width={214} height={66} className="mt-10 fade-in h1-hero" />
+      <h1 className="text-[#fffffff3] mt-8 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
         Comece a estudar 6 meses antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">

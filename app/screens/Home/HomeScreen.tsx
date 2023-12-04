@@ -25,7 +25,6 @@ export default function HomeScreen({ id }: { id?: string }) {
 
   return (
     <>
-      <BnNav />
       <Header />
       <Numbers />
       <Team />

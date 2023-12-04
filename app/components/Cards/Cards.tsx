@@ -10,14 +10,6 @@ const Cards = ({ elements }: any) => {
   return (
     domLoaded && (
       <div id="prices" className="relative background-cards">
-        <Image
-          priority
-          src="/logo-bn.png"
-          width={200}
-          height={100}
-          alt="logo bn"
-          className="mx-auto my -3"
-        />
         <div className=" relative flex gap-6 items-end flex-wrap-reverse pt-5 pb-10 justify-center px-6">
           {elements.map(
             (

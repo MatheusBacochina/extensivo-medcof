@@ -109,7 +109,7 @@ const ChoiseMedcof = () => {
         }
       />
        <Card
-        title={"Retenção​​"}
+        title={"Conteúdo​​"}
         descriptionTrue={
           "Atualizado anualmente conforme os últimos guidelines e atualizações de cada sociedade.​​​"
         }

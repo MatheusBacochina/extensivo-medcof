@@ -26,7 +26,7 @@ const TDC = () => {
               </p>
             </h1>
           </div>
-          <div className="md:basis-[345px] md:h-[345px] h-[300px] items-center md:rounded-tl-[60px] justify-center flex relative bg-[#FF5500]">
+          <div className="md:basis-[300px] md:h-[300px] h-[300px] items-center md:rounded-tl-[60px] justify-center flex relative bg-[#FF5500]">
             <Image src={"/tdc.png"} width={170} height={170} alt="TDC logo" />
             <PointsTdc1 />
           </div>

@@ -18,11 +18,11 @@ const TDC = () => {
             <h1 className="ml-4 font-poppins leading-none text-[24px] sm:text-[26px] md:text-[28px] lg:text-[29px] xl:text-[30px] 2xl:text-[32px] font-semibold">
               <span className="text-blue-800">MedCof Elite </span> +{" "}
               <span className="text-[#FF5500]">TDC</span>
-              <h6 className="leading-none mt-2 text-black text-opacity-80 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] font-normal font-sora">
+              <h6 className="leading-tight max-w-[400px] mt-2 text-black text-opacity-80 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] font-normal font-sora">
               Quer ter seu acesso ao Tdc por <span className="font-medium">seis meses ou um ano gratuitamente?</span>
               </h6>
-              <p className="max-w-[360px] mt-4 text-gray-600 text-sm font-normal font-mont leading-snug">
-              Adquirindo o pacote extensivo normal ou elite você ganha acesso ao Tá de Clinicagem 🎁
+              <p className="max-w-[350px] mt-4 text-gray-600 text-sm font-normal font-mont leading-snug">
+              Adquirindo o pacote extensivo normal ou elite dentro da oferta contida nesta página você ganha acesso ao Tá de Clinicagem 🎁
               </p>
             </h1>
           </div>

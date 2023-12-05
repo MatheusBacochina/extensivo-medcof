@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Header from "@/app/components/Header/Header";
 import Numbers from "@/app/components/Numbers/Numbers";
 import Team from "@/app/components/Team/Team";
@@ -21,12 +21,13 @@ import Whats from "@/app/components/Whats/Whats";
 import TDC from "@/app/components/TDC/TDC";
 export default function HomeScreen({ id }: { id?: string }) {
   let data = pages[id || "extensivo-r1-2024"];
-  const r = data.name.includes('R1') ? 'R1' : 'R+';
+  const r = data.name.includes("R1") ? "R1" : "R+";
 
   return (
     <>
+      {id?.includes("tdc") && <TDC />}
       <Header />
-      {id?.includes('tdc') &&  <TDC /> }
+
       <Numbers />
       <Team />
       <Students />
@@ -46,4 +47,3 @@ export default function HomeScreen({ id }: { id?: string }) {
     </>
   );
 }
-

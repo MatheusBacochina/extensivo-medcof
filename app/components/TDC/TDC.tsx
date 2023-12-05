@@ -22,7 +22,7 @@ const TDC = () => {
               Quer ter seu acesso ao Tdc por <span className="font-medium">seis meses ou um ano gratuitamente?</span>
               </h6>
               <p className="max-w-[360px] mt-4 text-gray-600 text-sm font-normal font-mont leading-snug">
-              Adquirindo o pacote extensivo normal ou elite você ganha acesso ao Tá de Clinicagem e ao do 🎁
+              Adquirindo o pacote extensivo normal ou elite você ganha acesso ao Tá de Clinicagem 🎁
               </p>
             </h1>
           </div>

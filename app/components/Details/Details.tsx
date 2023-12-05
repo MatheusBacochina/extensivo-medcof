@@ -89,9 +89,11 @@ const Details = () => {
         </div>
       </div>
       <div className="flex w-full mt-20 flex-col lg:flex-row items-center max-w-6xl gap-8">
-        <div className="basis-[500px] flex-grow-0 max-w-[500px]">
+        <div className="basis-[550px] flex-grow-0 max-w-[550px]">
           <h1 className="text-center sm:text-left text-white text-[24px] sm:text-[25px] md:text-[26px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] font-bold font-mont leading-tight">
-            Prepare-se de qualquer lugar com os melhores professores.
+          Saiba mais detalhes sobre o Banco de Questões Digital (QBank) mais completo do Brasil
+          <br />
+         <div className="lg:text-[18px] text-[#e9e9e9] leading-tight mt-2 xl:text-[20px] font-medium">O nosso QBank é a ferramenta de questões mais completa e avançada em território nacional:</div> 
           </h1>
           <div className="w-[100px] h-1 mx-auto sm:mx-0 bg-red-600 my-2" />
           <Item

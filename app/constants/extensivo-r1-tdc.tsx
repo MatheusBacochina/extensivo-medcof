@@ -49,17 +49,27 @@ const extensivor1tdc = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-ext-r1-acesso-direto",  steps:[
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-tdc",  steps:[
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
             <CheckIcon />
             <p className="inline">
-              Acesso antecipado a partir de hoje ao plano extensivo de 2023
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            6 meses de TDC
+              
             </p>
           </p>,
+          <p
+          key={1}
+          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+        >
+          <CheckIcon />
+          <p className="inline">
+            Acesso antecipado a partir de hoje ao plano extensivo de 2023
+            <s className="ml-2 text-[13px]">R$3.497,00</s>
+          </p>
+        </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
@@ -116,8 +126,18 @@ const extensivor1tdc = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-r1-acesso-direto-elite-blacknovember", steps: [
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-elite-tdc", steps: [
           <p
+          key={1}
+          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+        >
+          <CheckIcon />
+          <p className="inline">
+          1 ano de TDC
+            
+          </p>
+        </p>, 
+        <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
@@ -228,102 +248,7 @@ const extensivor1tdc = {
           </p>,
         ],
       },
-      {
-        avista: "R$18.897,00",
-        price: "R$1.888,44",
-        de: "R$26.679,00",
-        order: "rightCard",
-
-        name: (
-          <>
-            EXTENSIVO PREMIUM
-            <br />
-            R1 ACESSO DIRETO
-          </>
-        ),
-        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-premium",
-        steps: [
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Acesso antecipado a partir de hoje ao plano extensivo de 2023
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$7.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Seguro Aprovação
-              <s className="ml-2 text-[13px]">R$7.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Imersão Hands On (Curso prático presencial de 2 dias em SP)
-              <s className="ml-2 text-[13px]">R$4.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              OSCE Dominado
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">1 sessão mentoria Individual com Coordenador MedCof
-            <s className="ml-2 text-[13px]">R$2.000,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-            Simulado Tendências Presencial em SP
-            <s className="ml-2 text-[13px]">R$297,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p>
-            CofCards físicos
-            <s className="ml-2 text-[13px]">R$897,00</s>
-            </p>
-          </p>,
-        ],
-      },
+      
     ],
   },
 };

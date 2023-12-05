@@ -19,11 +19,10 @@ const TDC = () => {
               <span className="text-blue-800">MedCof Elite </span> +{" "}
               <span className="text-[#FF5500]">TDC</span>
               <h6 className="leading-none mt-2 text-black text-opacity-80 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] font-normal font-sora">
-                Quer ter seu acesso ao Tdc por um ano gratuitamente?{" "}
+              Quer ter seu acesso ao Tdc por <span className="font-medium">seis meses ou um ano gratuitamente?</span>
               </h6>
-              <p className="max-w-[340px] mt-4 text-gray-600 text-sm font-normal font-mont leading-snug">
-                Adquirindo o pacote elite você ganha acesso ao Tá de Clinicagem
-                durante um ano na faixa 🎁
+              <p className="max-w-[360px] mt-4 text-gray-600 text-sm font-normal font-mont leading-snug">
+              Adquirindo o pacote extensivo normal ou elite você ganha acesso ao Tá de Clinicagem e ao do 🎁
               </p>
             </h1>
           </div>

@@ -35,8 +35,18 @@ const extensivo2024rclinicamedicatdc = {
             R+ CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-clinica-medica",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-clinica-medica-tdc",
         steps: [
+          <p
+          key={1}
+          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+        >
+          <CheckIcon />
+          <p className="inline">
+          6 meses de TDC
+            
+          </p>
+        </p>,
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
@@ -101,8 +111,18 @@ const extensivo2024rclinicamedicatdc = {
             R+ CLÍNICA MÉDICA
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/clinica-medica-elite",
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-clinica-medica-elite-tdc",
         steps: [
+          <p
+          key={1}
+          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+        >
+          <CheckIcon />
+          <p className="inline">
+          1 ano de TDC
+            
+          </p>
+        </p>, 
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
@@ -214,83 +234,7 @@ const extensivo2024rclinicamedicatdc = {
           </p>,
         ],
       },
-      {
-        avista: "R$15.997,00",
-        price: "R$1.598,63",
-        de: "R$26.679,00 ",
-        order: "rightCard",
-
-        name: (
-          <>
-            EXTENSIVO PREMIUM
-            <br />
-            R+ CLÍNICA MÉDICA
-          </>
-        ),
-        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r-clinica-medica-elite-premium",
-        steps: [
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Acesso antecipado a partir de hoje ao plano extensivo de 2023
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$7.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Seguro Aprovação
-              <s className="ml-2 text-[13px]">R$7.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              OSCE Dominado
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              1 sessão mentoria Individual com Coordenador MedCof
-              <s className="ml-2 text-[13px]">R$2.000,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Simulado Tendências Presencial em SP
-              <s className="ml-2 text-[13px]">R$297,00</s>
-            </p>
-          </p>,
-        ],
-      },
+      
     ],
   },
 };

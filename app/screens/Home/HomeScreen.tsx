@@ -26,10 +26,10 @@ export default function HomeScreen({ id }: { id?: string }) {
   return (
     <>
       <Header />
+      {id?.includes('tdc') &&  <TDC /> }
       <Numbers />
       <Team />
       <Students />
-      {id?.includes('tdc') &&  <TDC /> }
       <Ia />
       <ChoiseMedcof />
       <Details />

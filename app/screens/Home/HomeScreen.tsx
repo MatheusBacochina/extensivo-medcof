@@ -27,7 +27,6 @@ export default function HomeScreen({ id }: { id?: string }) {
     <>
       {id?.includes("tdc") && <TDC />}
       <Header />
-
       <Numbers />
       <Team />
       <Students />

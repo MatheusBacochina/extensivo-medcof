@@ -122,7 +122,7 @@ const extensivor12024 = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/2024-r1-acesso-direto-elite-blacknovember",
+        url: "https://vendas.grupomedcof.com.br/pay/2024-r1-acesso-direto-elite",
         steps: [
           <p
             key={1}

@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
+import Logo from "@/public/lottie-logo.json"
+import Lottie from "lottie-react";
 const vimeoUrl = "https://player.vimeo.com/video/865690031?h=2678665bdb";
 const Header = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -26,7 +28,7 @@ const Header = () => {
           </svg>
         }
       />
-        <Image priority src="/medcof.png" alt="logo medcof" width={214} height={66} className="mt-10 fade-in h1-hero" />
+        <Image priority src="/logo-an.svg" alt="logo medcof" width={214} height={66} className="mt-10 fade-in h1-hero" />
       <h1 className="text-[#fffffff3] mt-8 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
       Comece a estudar antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />

@@ -91,7 +91,7 @@ const ChoiseMedcof = () => {
         }
       />
       <Card
-        title={"Inteligência Artificial​​"}
+        title={"Flexibilidade​​"}
         descriptionTrue={
           "Aulas curtas e direto ao ponto Cronograma flexível por prioridade Qbank imbatível Fichas-resumo em PDF Fichas-resumo impressas* FlashCards com revisão espaçada Inteligência Artificial Mentorias*​.​"
         }

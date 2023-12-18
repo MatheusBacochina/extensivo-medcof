@@ -246,7 +246,7 @@ const extensivo2024rpediatria = {
             <CheckIcon />
             <p className="inline">
               Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$7.997,00</s>
+              <s className="ml-2 text-[13px]">R$8.997,00,00</s>
             </p>
           </p>,
           <p

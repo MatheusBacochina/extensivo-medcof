@@ -238,7 +238,7 @@ const extensivor12024 = {
       {
         avista: "R$18.897,00",
         price: "R$1.888,44",
-        de: "R$26.679,00",
+        de: "R$30.679,00",
         order: "rightCard",
 
         name: (

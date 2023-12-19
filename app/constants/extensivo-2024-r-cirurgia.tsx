@@ -93,7 +93,7 @@ const extensivo2024rcirurgia = {
       {
         avista: "R$8.997,00",
         price: "R$899,10",
-        de: "R$21.573,00",
+        de: "R$21.970,00",
         order: "centerCard",
         name: (
           <>
@@ -217,7 +217,7 @@ const extensivo2024rcirurgia = {
       {
         avista: "R$15.997,00",
         price: "R$1.598,63",
-        de: "R$23.785,00",
+        de: "R$24.785,00 ",
         order: "rightCard",
 
         name: (
@@ -246,7 +246,7 @@ const extensivo2024rcirurgia = {
             <CheckIcon />
             <p className="inline">
               Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$8.997,00</s>
+              <s className="ml-2 text-[13px]">R$8.999,00</s>
             </p>
           </p>,
           <p

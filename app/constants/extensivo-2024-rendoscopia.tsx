@@ -245,7 +245,7 @@ const extensivo2024rendoscopia = {
             <CheckIcon />
             <p className="inline">
               Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$8.997,00,00</s>
+              <s className="ml-2 text-[13px]">R$8.999,00</s>
             </p>
           </p>,
           <p
@@ -276,16 +276,6 @@ const extensivo2024rendoscopia = {
             <p className="inline">
               1 sessão mentoria Individual com Coordenador MedCof
               <s className="ml-2 text-[13px]">R$2.000,00</s>
-            </p>
-          </p>,
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-              Simulado Tendências Presencial em SP
-              <s className="ml-2 text-[13px]">R$297,00</s>
             </p>
           </p>,
         ],

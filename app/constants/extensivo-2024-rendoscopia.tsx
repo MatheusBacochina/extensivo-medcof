@@ -216,7 +216,7 @@ const extensivo2024rendoscopia = {
       {
         avista: "R$15.997,00",
         price: "R$1.598,63",
-        de: "R$26.679,00 ",
+        de: "R$24.488,00",
         order: "rightCard",
 
         name: (

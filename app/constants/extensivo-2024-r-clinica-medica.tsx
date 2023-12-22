@@ -231,7 +231,7 @@ const extensivo2024rclinicamedica = {
         steps: [
           <p
             key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora "
           >
             <CheckIcon />
             <p className="inline">

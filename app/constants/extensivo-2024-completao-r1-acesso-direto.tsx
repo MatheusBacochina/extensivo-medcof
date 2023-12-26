@@ -294,7 +294,7 @@ const extensivo2024completaor1acessodireto = {
           >
             <CheckIcon />
             <p className="inline">
-              Intensivo HIIT 2025
+              Intensivo HIIT 2026
               <s className="ml-2 text-[13px]">R$3.997,00</s>
             </p>
           </p>,

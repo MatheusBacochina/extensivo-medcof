@@ -29,8 +29,23 @@ export default function HomeScreen({ id }: { id?: string }) {
       {id?.includes("tdc") && <TDC />}
       <Header />
       <Numbers />
+      <div className="bg-red-600 flex justify-center py-6">
+        <span className="mx-auto text-white font-inter font-bold text-3xl">
+        <span className="text-stone-100 font-medium text-2xl">↓</span>
+        {" "} Alerta novidade extensivo 2024{" "}
+          <span className="text-stone-100 font-medium text-2xl">↓</span>
+        </span>
+      </div>
       <Aqfm />
+
       <CofExpress />
+      <div className="bg-red-600 flex justify-center py-6">
+        <span className="mx-auto text-white font-inter font-bold text-3xl">
+        <span className="text-stone-100 font-medium text-2xl">↑</span>
+        {" "} Alerta novidade extensivo 2024{" "}
+          <span className="text-stone-100 font-medium text-2xl">↑</span>
+        </span>
+      </div>
       <Team />
       <Students />
       <Ia />

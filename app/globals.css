@@ -91,7 +91,8 @@ body {
   opacity: 0.5;
   z-index: -2;
 
-  background-color: #2234ae; background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
 }
 .leftCard {
   border-radius: 12px 12px 012px 12px;
@@ -137,7 +138,8 @@ body {
   inset: 0;
   opacity: 0.5;
   z-index: -2;
-  background-color: #14110F; background-image: linear-gradient(180deg, #030202 0%, #4d0604 74%);
+  background-color: #14110f;
+  background-image: linear-gradient(180deg, #030202 0%, #4d0604 74%);
 }
 .background-header::before {
   content: "";
@@ -147,8 +149,8 @@ body {
   opacity: 0.5;
   z-index: -2;
 
-  background-color: #2234ae; background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
-  
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
 }
 
 .embla {
@@ -938,8 +940,8 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.TextTitleBlack{
-  background: linear-gradient(91deg, #1F1F1F 13.43%, rgba(0, 0, 0, 0.87) 100%);
+.TextTitleBlack {
+  background: linear-gradient(91deg, #1f1f1f 13.43%, rgba(0, 0, 0, 0.87) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -958,7 +960,12 @@ body {
   background: rgba(34, 34, 34, 0.7);
   backdrop-filter: blur(10px);
 }
-.border-image-line{  
-
-  background:  linear-gradient(90deg, rgba(9, 9, 9, 0.00) -1.33%, rgba(199, 199, 199, 0.5) 36.16%, rgba(201, 201, 201, 0.67) 59.47%, rgba(156, 156, 156, 0) 100%);;
+.border-image-line {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 9, 0) -1.33%,
+    rgba(199, 199, 199, 0.5) 36.16%,
+    rgba(201, 201, 201, 0.67) 59.47%,
+    rgba(156, 156, 156, 0) 100%
+  );
 }

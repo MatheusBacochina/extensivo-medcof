@@ -30,21 +30,28 @@ export default function HomeScreen({ id }: { id?: string }) {
       <Header />
       <Numbers />
       <div className="bg-red-600 flex justify-center py-6 gap-4 items-center px-4 md:px-8">
-        <span className="text-stone-100 font-medium text-2xl animate-bounce">↓</span>
+        <span className="text-stone-100 font-medium text-2xl animate-bounce">
+          ↓
+        </span>
         <span className=" text-white font-inter font-bold text-3xl text-center animate-pulse">
           Alerta novidade extensivo 2024{" "}
         </span>
-        <span className="text-stone-100 font-medium text-2xl animate-bounce">↓</span>
+        <span className="text-stone-100 font-medium text-2xl animate-bounce">
+          ↓
+        </span>
       </div>
       <Aqfm />
-
       <CofExpress />
       <div className="bg-red-600 flex justify-center py-6 gap-4 items-center px-4 md:px-8">
-        <span className="text-stone-100 font-medium text-2xl animate-bounce">↑</span>
+        <span className="text-stone-100 font-medium text-2xl animate-bounce">
+          ↑
+        </span>
         <span className=" text-white font-inter font-bold text-3xl text-center animate-pulse">
           Alerta novidade extensivo 2024{" "}
         </span>
-        <span className="text-stone-100 font-medium text-2xl animate-bounce">↑</span>
+        <span className="text-stone-100 font-medium text-2xl animate-bounce">
+          ↑
+        </span>
       </div>
       <Team />
       <Students />

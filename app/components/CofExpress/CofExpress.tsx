@@ -1,6 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
-
+import Link from "next/link";
 const mona700 = localFont({ src: "../../../fonts/MonaSans-Bold.ttf" });
 const mona400 = localFont({ src: "../../../fonts/MonaSans-Regular.ttf" });
 const mona600 = localFont({ src: "../../../fonts/MonaSans-SemiBold.ttf" });
@@ -37,7 +37,8 @@ const CofExpress = () => {
                 minutos (isso mesmo!!), sem perder a essência e os detalhes. Com
                 o Cof Express, é possível!
               </p>
-              <button className="max-w-[345px] py-3 mt-5 bg-[#FF0000] rounded-[100px] px-5 hover:scale-105 transition-all ">
+              <Link href={"#prices"}>
+              <button  className="max-w-[345px] py-3 mt-5 bg-[#FF0000] rounded-[100px] px-5 hover:scale-105 transition-all ">
                 <span
                   style={{ fontFamily: mona500.style.fontFamily }}
                   className="text-white text-base font-medium "
@@ -45,6 +46,7 @@ const CofExpress = () => {
                   Não sacrifique mais seu tempo valioso! 
                 </span>
               </button>
+              </Link>
               <p
                 style={{ fontFamily: mona400.style.fontFamily }}
                 className="text-[#DEDEDE] max-w-[555px] leading-snug text-base md:text-lg font-normal mt-7"

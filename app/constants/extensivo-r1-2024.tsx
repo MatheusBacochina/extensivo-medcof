@@ -45,7 +45,7 @@ const extensivor12024 = {
       {
         avista: "R$5.397,00",
         price: "R$539,88",
-        de: "R$9.985,00",
+        de: "R$12.327,00",
         order: "leftCard",
         name: (
           <>
@@ -73,7 +73,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Extensivo Anual 2024
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
+              <s className="ml-2 text-[13px]">R$5.797,00</s>
             </p>
           </p>,
           <p
@@ -83,7 +83,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Acesso Anual ao qBank com Milhares questões
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
+              <s className="ml-2 text-[13px]">R$2.297,00</s>
             </p>
           </p>,
           <p
@@ -93,7 +93,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Programa de Simulados Exclusivos Mensais
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$547,00</s>
             </p>
           </p>,
           <p
@@ -104,7 +104,7 @@ const extensivor12024 = {
             <p className="inline">
               Sistema de Flashcards exclusivo com Revisão Intervalada
               inteligente
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$527,00</s>
             </p>
           </p>,
         ],
@@ -112,7 +112,7 @@ const extensivor12024 = {
       {
         avista: "R$8.897,00",
         price: "R$889,11",
-        de: "R$21.970,00",
+        de: "R$24.962,00",
 
         order: "centerCard",
         name: (
@@ -141,7 +141,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Extensivo Anual 2024
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
+              <s className="ml-2 text-[13px]">R$5.797,00</s>
             </p>
           </p>,
           <p
@@ -151,7 +151,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Intensivo HIIT
-              <s className="ml-2 text-[13px]">R$3.997,00</s>
+              <s className="ml-2 text-[13px]">R$4.497,00</s>
             </p>
           </p>,
           <p
@@ -171,7 +171,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Acesso Anual ao qBank com Milhares questões
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
+              <s className="ml-2 text-[13px]">R$2.297,00</s>
             </p>
           </p>,
           <p
@@ -182,7 +182,7 @@ const extensivor12024 = {
             <p className="inline">
               Sistema de Flashcards exclusivo com Revisão Intervalada
               inteligente
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$527,00</s>
             </p>
           </p>,
           <p
@@ -193,7 +193,7 @@ const extensivor12024 = {
             <p className="inline">
               Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives
               de revisão direcionadas)
-              <s className="ml-2 text-[13px]">R$1.297,00</s>
+              <s className="ml-2 text-[13px]">R$1.797,00</s>
             </p>
           </p>,
           <p
@@ -203,7 +203,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Programa de Simulados Exclusivos
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$547,00</s>
             </p>
           </p>,
           <p
@@ -213,7 +213,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Fichas-resumo impressas na sua casa
-              <s className="ml-2 text-[13px]">R$697,00</s>
+              <s className="ml-2 text-[13px]">R$747,00</s>
             </p>
           </p>,
           <p
@@ -238,7 +238,7 @@ const extensivor12024 = {
       {
         avista: "R$18.897,00",
         price: "R$1.888,44",
-        de: "R$30.679,00",
+        de: "R$27.582,00",
         order: "rightCard",
 
         name: (
@@ -267,7 +267,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Plano Elite 2024
-              <s className="ml-2 text-[13px]">R$8.999,00</s>
+              <s className="ml-2 text-[13px]">R$8.897,00</s>
             </p>
           </p>,
           <p
@@ -287,7 +287,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p className="inline">
               Imersão Hands On (Curso prático presencial de 2 dias em SP)
-              <s className="ml-2 text-[13px]">R$4.997,00</s>
+              <s className="ml-2 text-[13px]">R$5.397,00</s>
             </p>
           </p>,
           <p
@@ -326,7 +326,7 @@ const extensivor12024 = {
             <CheckIcon />
             <p>
             CofCards físicos
-            <s className="ml-2 text-[13px]">R$897,00</s>
+            <s className="ml-2 text-[13px]">R$997,00</s>
             </p>
           </p>,
         ],

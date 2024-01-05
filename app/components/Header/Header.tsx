@@ -2,8 +2,6 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
-import Logo from "@/public/lottie-logo.json";
-import Lottie from "lottie-react";
 const vimeoUrl = "https://player.vimeo.com/video/865690031?h=2678665bdb";
 const Header = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);

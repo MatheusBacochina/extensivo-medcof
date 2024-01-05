@@ -20,6 +20,8 @@ import Footer from "@/app/components/Footer/Footer";
 import Whats from "@/app/components/Whats/Whats";
 import TDC from "@/app/components/TDC/TDC";
 import CofExpress from "@/app/components/CofExpress/CofExpress";
+import localFont from "next/font/local";
+const mona600 = localFont({ src: "../../../fonts/MonaSans-SemiBold.ttf" });
 export default function HomeScreen({ id }: { id?: string }) {
   let data = pages[id || "extensivo-r1-2024"];
   const r = data.name.includes("R1") ? "R1" : "R+";
@@ -33,7 +35,7 @@ export default function HomeScreen({ id }: { id?: string }) {
         <span className="text-stone-100 font-medium text-2xl animate-bounce">
           ↓
         </span>
-        <span className=" text-white font-inter font-bold text-3xl text-center animate-pulse">
+        <span style={{ fontFamily: mona600.style.fontFamily }} className=" text-white font-bold text-2xl text-center animate-pulse">
           Alerta novidade extensivo 2024{" "}
         </span>
         <span className="text-stone-100 font-medium text-2xl animate-bounce">
@@ -46,7 +48,7 @@ export default function HomeScreen({ id }: { id?: string }) {
         <span className="text-stone-100 font-medium text-2xl animate-bounce">
           ↑
         </span>
-        <span className=" text-white font-inter font-bold text-3xl text-center animate-pulse">
+        <span style={{ fontFamily: mona600.style.fontFamily }} className=" text-white font-bold text-2xl text-center animate-pulse">
           Alerta novidade extensivo 2024{" "}
         </span>
         <span className="text-stone-100 font-medium text-2xl animate-bounce">

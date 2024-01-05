@@ -40,7 +40,7 @@ const extensivor1tdc = {
       {
         avista: "R$5.397,00",
         price: "R$539,88",
-        de: "R$9.985,00",
+        de: "R$12.327,00",
         order: "leftCard",
         name: (
           <>
@@ -49,27 +49,8 @@ const extensivor1tdc = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-tdc",  steps:[
-          <p
-            key={1}
-            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-          >
-            <CheckIcon />
-            <p className="inline">
-            6 meses de TDC
-              
-            </p>
-          </p>,
-          <p
-          key={1}
-          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-        >
-          <CheckIcon />
-          <p className="inline">
-            Acesso antecipado a partir de hoje ao plano extensivo de 2023
-            <s className="ml-2 text-[13px]">R$3.497,00</s>
-          </p>
-        </p>,
+        url: "https://vendas.grupomedcof.com.br/pay/2024-ext-r1-acesso-direto",
+        steps: [
           <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
@@ -77,7 +58,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Extensivo Anual 2024
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
+              <s className="ml-2 text-[13px]">R$5.797,00</s>
             </p>
           </p>,
           <p
@@ -87,7 +68,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Acesso Anual ao qBank com Milhares questões
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
+              <s className="ml-2 text-[13px]">R$2.297,00</s>
             </p>
           </p>,
           <p
@@ -97,7 +78,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Programa de Simulados Exclusivos Mensais
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$547,00</s>
             </p>
           </p>,
           <p
@@ -108,7 +89,38 @@ const extensivor1tdc = {
             <p className="inline">
               Sistema de Flashcards exclusivo com Revisão Intervalada
               inteligente
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$527,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Cof Express
+              <s className="ml-2 text-[13px]">R$1.789,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              MEDCOF PLUS
+              <s className="ml-2 text-[13px]">R$970,00</s>
+            </p>
+          </p>,
+            <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+            Fichas resumos - PDF 
+
+              <s className="ml-2 text-[13px]">R$400,00</s>
             </p>
           </p>,
         ],
@@ -116,7 +128,7 @@ const extensivor1tdc = {
       {
         avista: "R$8.897,00",
         price: "R$889,11",
-        de: "R$21.970,00",
+        de: "R$24.962,00",
 
         order: "centerCard",
         name: (
@@ -126,18 +138,9 @@ const extensivor1tdc = {
             R1 ACESSO DIRETO
           </>
         ),
-        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-elite-tdc", steps: [
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-elite",
+        steps: [
           <p
-          key={1}
-          className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
-        >
-          <CheckIcon />
-          <p className="inline">
-          1 ano de TDC
-            
-          </p>
-        </p>, 
-        <p
             key={1}
             className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
           >
@@ -154,7 +157,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Extensivo Anual 2024
-              <s className="ml-2 text-[13px]">R$3.497,00</s>
+              <s className="ml-2 text-[13px]">R$5.797,00</s>
             </p>
           </p>,
           <p
@@ -164,7 +167,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Intensivo HIIT
-              <s className="ml-2 text-[13px]">R$3.997,00</s>
+              <s className="ml-2 text-[13px]">R$4.497,00</s>
             </p>
           </p>,
           <p
@@ -184,7 +187,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Acesso Anual ao qBank com Milhares questões
-              <s className="ml-2 text-[13px]">R$1.997,00</s>
+              <s className="ml-2 text-[13px]">R$2.297,00</s>
             </p>
           </p>,
           <p
@@ -195,7 +198,7 @@ const extensivor1tdc = {
             <p className="inline">
               Sistema de Flashcards exclusivo com Revisão Intervalada
               inteligente
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$527,00</s>
             </p>
           </p>,
           <p
@@ -206,7 +209,7 @@ const extensivor1tdc = {
             <p className="inline">
               Acesso antecipado ao Raio-X da banca de + 30 Insitituições (lives
               de revisão direcionadas)
-              <s className="ml-2 text-[13px]">R$1.297,00</s>
+              <s className="ml-2 text-[13px]">R$1.797,00</s>
             </p>
           </p>,
           <p
@@ -216,7 +219,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Programa de Simulados Exclusivos
-              <s className="ml-2 text-[13px]">R$497,00</s>
+              <s className="ml-2 text-[13px]">R$547,00</s>
             </p>
           </p>,
           <p
@@ -226,7 +229,7 @@ const extensivor1tdc = {
             <CheckIcon />
             <p className="inline">
               Fichas-resumo impressas na sua casa
-              <s className="ml-2 text-[13px]">R$697,00</s>
+              <s className="ml-2 text-[13px]">R$747,00</s>
             </p>
           </p>,
           <p
@@ -248,7 +251,103 @@ const extensivor1tdc = {
           </p>,
         ],
       },
-      
+      {
+        avista: "R$18.897,00",
+        price: "R$1.888,44",
+        de: "R$27.582,00",
+        order: "rightCard",
+
+        name: (
+          <>
+            EXTENSIVO PREMIUM
+            <br />
+            R1 ACESSO DIRETO
+          </>
+        ),
+        url: "https://vendas.grupomedcof.com.br/pay/extensivo-r1-acesso-direto-premium",
+        steps: [
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Acesso antecipado a partir de hoje ao plano extensivo de 2023
+              <s className="ml-2 text-[13px]">R$3.497,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Plano Elite 2024
+              <s className="ml-2 text-[13px]">R$8.897,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Seguro Aprovação
+              <s className="ml-2 text-[13px]">R$7.997,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Imersão Hands On (Curso prático presencial de 2 dias em SP)
+              <s className="ml-2 text-[13px]">R$5.397,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              OSCE Dominado
+              <s className="ml-2 text-[13px]">R$1.997,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              1 sessão mentoria Individual com Coordenador MedCof
+              <s className="ml-2 text-[13px]">R$2.000,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p className="inline">
+              Simulado Tendências Presencial em SP
+              <s className="ml-2 text-[13px]">R$297,00</s>
+            </p>
+          </p>,
+          <p
+            key={1}
+            className="text-white flex items-center gap-2 text-left mt-4 font-normal grow-0 text-sm font-sora"
+          >
+            <CheckIcon />
+            <p>
+              CofCards físicos
+              <s className="ml-2 text-[13px]">R$997,00</s>
+            </p>
+          </p>,
+        ],
+      },
     ],
   },
 };

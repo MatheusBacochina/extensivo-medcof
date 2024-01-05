@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useRef, useState } from "react";
 import Bg from "../Bg";
-import Logo from "@/public/lottie-logo.json"
+import Logo from "@/public/lottie-logo.json";
 import Lottie from "lottie-react";
 const vimeoUrl = "https://player.vimeo.com/video/865690031?h=2678665bdb";
 const Header = () => {
@@ -11,7 +11,6 @@ const Header = () => {
 
   return (
     <header className="overflow-hidden pb-20 relative pt-2 px-4 background-header h-fit flex flex-col items-center isolate">
-   
       <Bg
         logo={
           <svg
@@ -28,15 +27,22 @@ const Header = () => {
           </svg>
         }
       />
-        <Image priority src="/logo-an.svg" alt="logo medcof" width={214} height={66} className="mt-10 fade-in h1-hero" />
-      <h1 className="text-[#fffffff3] mt-8 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
-      Comece a estudar antes dos seus concorrentes e{" "}
+      <Image
+        priority
+        src="/logo-an.svg"
+        alt="logo medcof"
+        width={274}
+        height={66}
+        className="mt-12 fade-in h1-hero"
+      />
+      <h1 className="text-[#fffffff3] mt-12 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
+        Comece a estudar antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">
           seja aprovado na residência médica que você quiser!
         </span>
       </h1>
-      <div className="max-w-[700px] animation-h1 bg-white bg-opacity-10 rounded-xl isolate group overflow-hidden w-full relative aspect-video mt-6 grid">
+      <div className="max-w-[800px] rounded-xl bg-black isolate group overflow-hidden w-full relative aspect-video mt-6 grid">
         <iframe
           ref={refVideo}
           title="Vimeo Video"
@@ -56,7 +62,7 @@ const Header = () => {
                 refVideo.current.src = url + "&autoplay=1";
               }
             }}
-            className="absolute hover:scale-105 cursor-pointer transition-transform top-0 left-0 bg-slate-600 z-50 w-full h-full"
+            className="absolute hover:scale-105 cursor-pointer transition-transform top-0 left-0z-50 w-full h-full"
           >
             <Image
               fill
@@ -68,18 +74,21 @@ const Header = () => {
           </div>
         )}
       </div>
-      <p className="max-w-[500px] text-[14px] leading-snug mt-2 text-center text-slate-300">O método que aprovou os primeiros lugares da USP, ENARE, UNIFESP, PSU-MG, AMP, AMRIGS, UNICAMP E MUITAS OUTRAS!</p>
+      <p className="max-w-[500px] text-[14px] leading-snug mt-2 text-center text-slate-300">
+        O método que aprovou os primeiros lugares da USP, ENARE, UNIFESP,
+        PSU-MG, AMP, AMRIGS, UNICAMP E MUITAS OUTRAS!
+      </p>
       <button
         onClick={() => {
           const element = document.getElementById("prices");
           if (element) {
-            const boundingBox = element
+            const boundingBox = element;
             boundingBox.scrollIntoView();
           }
         }}
-        className="cursor-pointer button rounded-lg mt-10 shadow px-6 py-3 hover:scale-105 transition-all"
+        className="cursor-pointer button rounded-lg mt-10 shadow px-7 py-5 hover:scale-105 transition-all"
       >
-        <span className="text-white text-[18px] font-normal font-inter leading-normal">
+        <span className="text-white text-[20px] font-normal font-inter leading-normal">
           Quero começar a estudar hoje!
         </span>
       </button>

@@ -20,7 +20,7 @@ const Card = ({
       <h3 className="text-center px-4 text-zinc-700 max-w-sm leading-tight text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px] mx-auto font-semibold font-mont">
         {title}
       </h3>
-      <div className="mx-auto flex-col sm:flex-row mt-5 px-4 flex max-w-[1024px] gap-7 justify-between">
+      <div className="mx-auto flex-col sm:flex-row mt-5 px-4 sm:px-8 flex max-w-[1024px] gap-7 justify-between">
         <div>
           <h1 className="text-green-600 flex gap-2 text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]  font-bold font-mont">
             MedCof{" "}

@@ -66,7 +66,7 @@ const Students = () => {
   }, []);
 
   return (
-    <div className="bg-black flex flex-col items-center pt-8 pb-20 px-4">
+    <div className="bg-[#14110F] flex flex-col items-center pt-8 pb-20 px-4">
       <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-sm leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Os Primeiros Lugares Fazem MedCof
       </h3>

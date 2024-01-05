@@ -14,11 +14,12 @@ import FirstPlaces from "@/app/components/FirstPlaces/FirstPlaces";
 import Cards from "@/app/components/Cards/Cards";
 import { pages } from "@/app/constants/pages";
 import Answers from "@/app/components/Answers/Answers";
-import BnNav from "@/app/components/BnNav/BnNav";
+import Aqfm from "@/app/components/Aqfm/Aqfm";
 import Doubt from "@/app/components/Doubt/Doubt";
 import Footer from "@/app/components/Footer/Footer";
 import Whats from "@/app/components/Whats/Whats";
 import TDC from "@/app/components/TDC/TDC";
+import CofExpress from "@/app/components/CofExpress/CofExpress";
 export default function HomeScreen({ id }: { id?: string }) {
   let data = pages[id || "extensivo-r1-2024"];
   const r = data.name.includes("R1") ? "R1" : "R+";
@@ -28,6 +29,8 @@ export default function HomeScreen({ id }: { id?: string }) {
       {id?.includes("tdc") && <TDC />}
       <Header />
       <Numbers />
+      <Aqfm />
+      <CofExpress />
       <Team />
       <Students />
       <Ia />

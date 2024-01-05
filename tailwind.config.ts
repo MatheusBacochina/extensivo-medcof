@@ -15,6 +15,7 @@ const config: Config = {
       poppin: ["var(--font-poppins)"],
       inter: ["var(--font-inter)"],
       mont: ["var(--font-mont)"],
+      mona: ["var(--font-mona)"],
     },
     extend: {
       gridTemplateColumns: {

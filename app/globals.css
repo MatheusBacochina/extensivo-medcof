@@ -78,6 +78,21 @@ body {
   background-blend-mode: normal, normal, normal, normal, normal, normal;
   filter: blur(100px);
 }
+.background-cards-left {
+  isolation: isolate;
+  overflow: hidden;
+  background: black;
+}
+.background-cards-left::before {
+  content: "";
+  position: absolute;
+  transform: scaleX(1);
+  inset: 0;
+  opacity: 0.5;
+  z-index: -2;
+
+  background-color: #2234ae; background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+}
 .leftCard {
   border-radius: 12px 12px 012px 12px;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -122,28 +137,7 @@ body {
   inset: 0;
   opacity: 0.5;
   z-index: -2;
-  background: radial-gradient(
-      62.61% 62.61% at 95.23% 6.02%,
-      #02001b 0%,
-      rgba(10, 5, 66, 0.691) 54.71%,
-      rgba(88, 35, 248, 0.125) 100%
-    ),
-    linear-gradient(72.48deg, #da0c16 2.61%, rgba(106, 103, 227, 0) 56.18%),
-    radial-gradient(
-      45.23% 45.23% at 35.11% -11.02%,
-      #cf0f2f 0%,
-      rgba(3, 21, 128, 0.829) 100%
-    ),
-    radial-gradient(
-      94.51% 124.88% at 94.32% 94.43%,
-      rgba(22, 87, 226, 0.616) 0%,
-      rgba(131, 218, 255, 0.6552) 32.29%,
-      rgba(4, 51, 139, 0.945) 64.06%,
-      rgba(8, 65, 209, 0.623) 100%
-    ),
-    linear-gradient(313.04deg, #341d65 0.93%, #604aea 125.68%);
-  background-blend-mode: normal, normal, normal, normal, normal, normal;
-  filter: blur(100px);
+  background-color: #14110F; background-image: linear-gradient(180deg, #030202 0%, #4d0604 74%);
 }
 .background-header::before {
   content: "";
@@ -152,28 +146,9 @@ body {
   inset: 0;
   opacity: 0.5;
   z-index: -2;
-  background: radial-gradient(
-      62.61% 62.61% at 95.23% 6.02%,
-      #02001b 0%,
-      rgba(10, 5, 66, 0.691) 54.71%,
-      rgba(88, 35, 248, 0.125) 100%
-    ),
-    linear-gradient(72.48deg, #da0c16 2.61%, rgba(106, 103, 227, 0) 56.18%),
-    radial-gradient(
-      45.23% 45.23% at 35.11% -11.02%,
-      #cf0f2f 0%,
-      rgba(3, 21, 128, 0.829) 100%
-    ),
-    radial-gradient(
-      94.51% 124.88% at 94.32% 94.43%,
-      rgba(22, 87, 226, 0.616) 0%,
-      rgba(131, 218, 255, 0.6552) 32.29%,
-      rgba(4, 51, 139, 0.945) 64.06%,
-      rgba(8, 65, 209, 0.623) 100%
-    ),
-    linear-gradient(313.04deg, #341d65 0.93%, #604aea 125.68%);
-  background-blend-mode: normal, normal, normal, normal, normal, normal;
-  filter: blur(100px);
+
+  background-color: #2234ae; background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+  
 }
 
 .embla {
@@ -956,6 +931,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.TextTitleWhite {
+  background: linear-gradient(268deg, #fff 24.89%, #dadada 101.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.TextTitleBlack{
+  background: linear-gradient(91deg, #1F1F1F 13.43%, rgba(0, 0, 0, 0.87) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .shadow-red {
   border-radius: 724px;
   background: radial-gradient(
@@ -968,4 +957,8 @@ body {
   border-radius: 20px;
   background: rgba(34, 34, 34, 0.7);
   backdrop-filter: blur(10px);
+}
+.border-image-line{  
+
+  background:  linear-gradient(90deg, rgba(9, 9, 9, 0.00) -1.33%, rgba(199, 199, 199, 0.5) 36.16%, rgba(201, 201, 201, 0.67) 59.47%, rgba(156, 156, 156, 0) 100%);;
 }

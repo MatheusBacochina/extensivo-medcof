@@ -46,7 +46,7 @@ const Cards = ({ elements }: any) => {
                   }`}
                 >
                   {order === "centerCard" && (
-                    <div className="bg-gradient-to-r px-2 text-stone-800 from-fuchsia-300 to-blue-400 rounded-sm shadow justify-center items-start inline-flex">
+                    <div className="bg-gradient-to-r px-2 text-stone-800 from-green-500 to-blue-700 rounded-sm shadow justify-center items-start inline-flex">
                       Mais Vendido
                     </div>
                   )}

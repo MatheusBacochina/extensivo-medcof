@@ -13,9 +13,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className={`mx-auto  border-t ${
-        !last ? "" : "border-b"
-      } border-zinc-500 border-opacity-40 py-10`}
+      className={`mx-auto py-10`}
     >
       <h3 className="text-center px-4 text-zinc-700 max-w-sm leading-tight text-[18px] sm:text-[19px] md:text-[20px] lg:text-[20px] xl:text-[21px] 2xl:text-[22px] mx-auto font-semibold font-mont">
         {title}
@@ -46,9 +44,9 @@ const Card = ({
 
 const ChoiseMedcof = () => {
   return (
-    <div className="pt-10 bg-white">
-      <h3 className="text-center px-4 h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
-        Quem compara, <br />escolhe <span className="h1-text-color">MedCof</span>
+    <div className="py-10 bg-white">
+      <h3 className="text-center px-4 TextTitleBlack text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
+        Quem compara, <br />escolhe <span className="">MedCof</span>
       </h3>
       <div className="w-[100px] h-[2px] opacity-80 bg-red-600 mx-auto mt-5"></div>
       <p className="text-center px-4 mb-10 text-zinc-800 max-w-md mx-auto mt-5 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]  font-mont leading-relaxed">
@@ -63,6 +61,7 @@ const ChoiseMedcof = () => {
           "Usam centenas de apostilas que geram ansiedade e matéria acumulada.​"
         }
       />
+      <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
       <Card
         title={"Professores​"}
         descriptionTrue={
@@ -72,6 +71,7 @@ const ChoiseMedcof = () => {
           "Professores sem formação específica. Não sabem como o especialista que prepara a sua prova pensa.​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
       <Card
         title={"Método​​"}
         descriptionTrue={
@@ -81,6 +81,7 @@ const ChoiseMedcof = () => {
           "Aulas longas, superficiais e genéricas. Insuficiente para a aprovação.​​​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
       <Card
         title={"Inteligência Artificial​​"}
         descriptionTrue={
@@ -90,6 +91,7 @@ const ChoiseMedcof = () => {
           "Aplicativos fora do ar, sem atualização e trilhas que não levam a lugar nenhum.​​​​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
       <Card
         title={"Flexibilidade​​"}
         descriptionTrue={
@@ -99,6 +101,7 @@ const ChoiseMedcof = () => {
           "Só existem duas formas de estudo: apostilas gigantes ou videoaulas longas​​​​.​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
       <Card
         title={"Retenção​​"}
         descriptionTrue={
@@ -108,6 +111,7 @@ const ChoiseMedcof = () => {
           "Você esquece a maior parte do que estudou em 24 horas.​​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
        <Card
         title={"Conteúdo​​"}
         descriptionTrue={
@@ -117,6 +121,7 @@ const ChoiseMedcof = () => {
           "Desatualizado, engessado e na maioria das vezes incompleto.​​​"
         }
       />
+        <div className="max-w-[1024px] h-[1px]  mx-auto border-image-line"/>
        <Card
         title={"Questões​​​"}
         descriptionTrue={
@@ -126,6 +131,7 @@ const ChoiseMedcof = () => {
           "Comentários incompletos, feitos por médicos sem especialidades ou até mesmo estudantes!​​"
         }
       />
+     
     </div>
   );
 };

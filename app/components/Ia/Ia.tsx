@@ -23,7 +23,7 @@ const Ia = () => {
           </svg>
         }
       />
-      <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
+      <h3 className="text-center TextTitleWhite max-w-md leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         A Única Plataforma Com Inteligência Artificial Generativa.
       </h3>
       <div className="w-[100px] h-[2px] opacity-80 bg-red-600 mx-auto mt-5"></div>

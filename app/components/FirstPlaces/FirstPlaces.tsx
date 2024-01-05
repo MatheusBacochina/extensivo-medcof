@@ -47,7 +47,7 @@ const FirstPlaces: React.FC = () => {
 
   return (
     <div className="flex flex-col relative isolate items-center pt-10 pb-12 px-4">
-      <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
+      <h3 className="text-center TextTitleBlack max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
       Confira o depoimento de alguns dos nossos primeiros lugares
       </h3>
       <div className="embla mt-10 w-full">

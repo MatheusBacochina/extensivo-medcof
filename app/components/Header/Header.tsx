@@ -35,7 +35,7 @@ const Header = () => {
         height={66}
         className="mt-12 fade-in h1-hero"
       />
-      <h1 className="text-[#fffffff3] mt-12 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[26px]">
+      <h1 className="text-[#fffffff3] mt-12 animation-h1 max-w-[816px] leading-tight text-center font-normal font-mont text-[20px] sm:text-[24px] md:text-[28px]">
         Comece a estudar antes dos seus concorrentes e{" "}
         <br className="hidden md:block" />
         <span className="h1-hero font-medium">

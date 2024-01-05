@@ -1,8 +1,8 @@
 import Image from "next/image";
 const Bonus = () => {
   return (
-    <div className="flex flex-col bg-[#14110F] relative isolate items-center pt-10 pb-20 px-4">
-      <h3 className="text-center h1-text-color-bold text-zinc-900 max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
+    <div className="flex flex-col background-cards-left relative isolate items-center pt-10 pb-20 px-4">
+      <h3 className="text-center TextTitleWhite max-w-2xl leading-tight text-[22px] sm:text-[24px] md:text-[25px] lg:text-[26px] xl:text-[27px] 2xl:text-[28px] mx-auto font-bold font-mont">
         Garantindo a sua participação agora você vai receber os seguintes bônus
         gratuitos:
       </h3>
